@@ -15,7 +15,7 @@ create table user(
 	/*个人身份信息*/
 	realName varchar(100) not null,
 	content text not NULL,/*个人简介*/
-	pic varchar(150) not null,/*头像*/
+	logoPic varchar(150) not null,/*头像*/
 	concernProblem text not NULL,/*关注的问题*/
 	concernUser text not NULL,/*关注的用户*/
 
@@ -23,4 +23,4 @@ create table user(
 
 	primary key(uid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
-INSERT INTO `user` VALUES (null,"wbx","wbx","王博鑫","这是我的简介","");
+INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `concernProblem`, `concernUser`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '', '', '', '');

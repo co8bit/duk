@@ -2,8 +2,25 @@
 namespace Home\Controller;
 use Think\Controller;
 
+require_once(APP_PATH."/Home/Conf/MyConfigINI.php");
+
 class UserController extends Controller
 {
+    /**
+     * 上传文件的配置数组
+     * @var array
+     */
+    protected $UPLOADCONFIG = array(    
+        'maxSize'    =>    3145728,
+        'rootPath'   =>    _UPLOADPATH,
+        'savePath'   =>    '/Uploads/',    
+        'saveName'   =>    array('uniqid',''),    
+        'exts'       =>    array('jpg', 'png', 'jpeg'),    
+        'autoSub'    =>    true,    
+        'subName'    =>    array('date','Ymd'),
+    );
+
+
     protected function _initialize()
     {
         //parent::_initialize();
@@ -32,8 +49,8 @@ class UserController extends Controller
         {
             $userName           =       I('param.username',"");
             $userPassword       =       I('param.password',"");
-            empty($userName) && $this->error("用户名为空");
-            empty($userPassword) && $this->error("密码为空");
+            empty($userName) && exit("用户名为空");
+            empty($userPassword) && exit("密码为空");
             
             if ( $result = D("User")->login($userName,$userPassword) )
             {
@@ -99,20 +116,17 @@ class UserController extends Controller
             //判断用户名是否重复
             $tmpResult  =   $dbUser->where(array("name"=>$data["name"]))->find();
             if ( !empty($tmpResult) )
-                // $this->error("注册失败");
                 exit("error");
 
             $userId = $dbUser->add($data);
             if(empty($userId))//添加失败
             {
-                // $this->error("注册失败");
                 exit("error");
             }
             else
             {
                 $data["uid"]    =   $userId;
                 $this->setSession($data);
-                // $this->success("注册成功",U("User/index"));
                 exit("true");
             }  
         }
@@ -129,30 +143,6 @@ class UserController extends Controller
     {
         exit(session("uid"));
     }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /**
      * 得到用户的信息
@@ -185,7 +175,7 @@ class UserController extends Controller
     {
         $dbUser     =   D("User");
 
-        $dbUser->field("uid,pwd,realName,logoPic,phone,address")->create(I('param.'));
+        $dbUser->field("uid,pwd,realName,content,logoPic,concernProblem,concernUser,tag")->create(I('param.'));
         if ($dbUser->save())
             exit("true");
         else
@@ -204,7 +194,7 @@ class UserController extends Controller
     {
         $dbUser     =   D("User");
 
-        $dbUser->field("uid,pwd,realName,phone,address")->create(I('param.'));
+        $dbUser->field("uid,pwd,realName,content,logoPic,concernProblem,concernUser,tag")->create(I('param.'));
 
         $upload = new \Think\Upload($this->UPLOADCONFIG);// 实例化上传类
         $info   =   $upload->upload();
@@ -249,43 +239,6 @@ class UserController extends Controller
         }
 
         if ($dbUser->save())
-            exit("true");
-        else
-            exit("false");
-    }
-
-
-
-    /**
-     * 发送手机绑定验证码
-     * @param string phone 要绑定的手机号
-     * @return void
-     */
-    public function sendSMSForBindPhone()
-    {
-        require_once(COMMON_PATH."/function.php");
-
-        $dbUser     =   D("User");
-
-        $dbUser->field("phone")->create(I(_INPUT_METHOD));
-
-        $Verify = new \Think\Verify(array('length'=>4));
-        $code   =   $Verify->entry(1,false);
-
-        sendSMS("$code,30",$dbUser->phone,2650);
-    }
-
-
-
-    /**
-     * 判断手机验证码是否正确
-     * @param string code 用户输入的验证码
-     * @return bool "" 是否正确
-     */
-    public function bindPhoneVerify()
-    {
-        $verify = new \Think\Verify();
-        if ($verify->check(I(_INPUT_METHOD."code"), 1))
             exit("true");
         else
             exit("false");
