@@ -1,0 +1,81 @@
+[ 2015-05-06T01:30:41+08:00 ] ::1 /hst/Admin.php/index.php
+ERR: 无法加载控制器:Index.php
+
+[ 2015-05-06T01:30:49+08:00 ] ::1 /hst/Admin.php/Provider/loadStandarProjectLib.html
+ERR: 无法加载控制器:Provider
+
+[ 2015-05-06T01:32:28+08:00 ] ::1 /hst/Admin.php/Provider/loadStandarProjectLib.html
+ERR: 非法操作:loadStandarProjectLib
+
+[ 2015-05-06T01:57:27+08:00 ] ::1 /hst/Admin.php/Provider/loadStandarProjectLib.html
+ERR: 非法操作:loadStandarProjectLib
+
+[ 2015-05-06T01:57:31+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: 模板不存在:./Application/Admin/View/Provider/addStandarProjectLib.html
+
+[ 2015-05-06T01:58:15+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:05:19+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:34:49+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:36:49+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:36:51+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:37:38+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:38:09+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:38:18+08:00 ] ::1 /hst/Admin.php/Provider/%27./hst/Admin.php/Provider/addStandarProjectLib.html.%27
+ERR: 非法操作:'
+
+[ 2015-05-06T02:43:17+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:getData方法不存在！
+
+[ 2015-05-06T02:47:53+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:asd方法不存在！
+
+[ 2015-05-06T02:48:26+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:asd方法不存在！
+
+[ 2015-05-06T02:48:29+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:asd方法不存在！
+
+[ 2015-05-06T02:49:28+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:asd方法不存在！
+
+[ 2015-05-06T02:49:31+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:asd方法不存在！
+
+[ 2015-05-06T02:51:04+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:51:07+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:53:00+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:53:03+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:56:37+08:00 ] ::1 /hst/Admin.php/Provider/addStandarProjectLib.html
+ERR: 非法操作:addStandarProjectLib
+
+[ 2015-05-06T02:56:42+08:00 ] ::1 /hst/Admin.php/Provider/addStandardProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:57:36+08:00 ] ::1 /hst/Admin.php/Provider/addStandardProjectLib.html
+ERR: Think\Model:de方法不存在！
+
+[ 2015-05-06T02:57:40+08:00 ] ::1 /hst/Admin.php/Provider/addStandardProjectLib.html
+ERR: Think\Model:de方法不存在！
+

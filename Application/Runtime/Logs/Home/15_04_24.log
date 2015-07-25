@@ -1,0 +1,86 @@
+[ 2015-04-24T00:23:13+08:00 ] 127.0.0.1 /hst/index.php/HR/detailbiaoshu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: name F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 62 行.
+NOTIC: [8] Undefined variable: time F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 65 行.
+NOTIC: [8] Undefined variable: price F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 68 行.
+NOTIC: [8] Undefined variable: service F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 71 行.
+NOTIC: [8] Undefined variable: medicalteam F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 74 行.
+NOTIC: [8] Undefined variable: device F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 77 行.
+NOTIC: [8] Undefined variable: quality F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 80 行.
+NOTIC: [8] Undefined variable: total F:\wamp\www\hst\Application\Runtime\Cache\Home\bbec4aa1fab5d2e090a5f04588153504.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2015-04-24T00:37:19+08:00 ] 127.0.0.1 /hst/index.php/provider/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+ERR: 无法加载控制器:Provider
+
+[ 2015-04-24T00:37:45+08:00 ] 127.0.0.1 /hst/index.php/provider/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载控制器:Provider
+
+[ 2015-04-24T00:38:02+08:00 ] 127.0.0.1 /hst/index.php/provider/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2015-04-24T00:38:02+08:00 ] 127.0.0.1 /hst/index.php/provider/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+

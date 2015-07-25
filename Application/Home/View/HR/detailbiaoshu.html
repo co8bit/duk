@@ -1,0 +1,57 @@
+<include file="Public:header"/>
+<div class="container" style="margin-top: 60px">
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <include file="Public:hrSidebar"/>
+        </div>
+        <div class="col-md-6 offset1">
+            <table class="table table-responsive">
+                <tr>
+                    <th>名次</th>
+                    <th>投标机构</th>
+                    <th>时间</th>
+                    <th>价格</th>
+                    <th>服务</th>
+                    <th>医护团队</th>
+                    <th>设备</th>
+                    <th>资质</th>
+                    <th>总得分</th>
+                    <th>标书详情</th>
+                </tr>
+                <tr>
+                    <td>
+                        {$id}
+                    </td>
+                    <td>
+                        {$name}
+                    </td>
+                    <td>
+                        {$time}
+                    </td>
+                    <td>
+                        {$price}
+                    </td>
+                    <td>
+                        {$service}
+                    </td>
+                    <td>
+                        {$medicalteam}
+                    </td>
+                    <td>
+                        {$device}
+                    </td>
+                    <td>
+                        {$quality}
+                    </td>
+                    <td>
+                        {$total}
+                    </td>
+                    <td>
+                        <input type="button" class="btn" value="查看"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<include file="Public:footer"/>

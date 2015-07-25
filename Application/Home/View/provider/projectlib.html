@@ -1,0 +1,68 @@
+<include file="Public:header"/>
+<div class="container" style="margin-top: 40px">
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <include file="Public:providerSidebar"/>
+        </div>
+        <div class="col-md-6 offset1">
+            <div>
+                <select>
+                    <option>科室检查</option>
+                    <option>三大常规</option>
+                    <option>实验室检查</option>
+                    <option>心理检测</option>
+                    <option>医技检查</option>
+                    <option>中医体检</option>
+                    <option>基因检测</option>
+                    <option>报告及其他</option>
+                </select>
+            </div>
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th width="30">序号</th>
+                        <th width="60">项目名称</th>
+                        <th width="50">英文简名</th>
+                        <th width="80">检查项目</th>
+                        <th>临床意义</th>
+                        <th>备注</th>
+                        <th width="50">单价</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist name="list" id="vo">
+                        <tr>
+                            <form action='{:U("Provider/projectLib")}' method="post" >
+                                <input type="hidden" name="uplid" value="{$vo.uplid}">
+                                <td style="text-align: center;vertical-align: middle">{$key+1}</td>
+                                <td style="text-align: center;vertical-align: middle">{$vo.name}</td>
+                                <td><input name="english" type="text" class="form-control" value="{$vo.english}"/></td>
+                                <td><input name="checkItem" type="text" class="form-control" value="{$vo.checkItem}"/></td>
+                                <td><input name="linchuang" type="text" class="form-control" value="{$vo.linchuang}"/></td>
+                                <td><input name="remark" type="text" class="form-control" value="{$vo.remark}"/></td>
+                                <td><input name="price" type="text" class="form-control" value="{$vo.price}"/></td>
+                                <td><input type="submit" value="保存修改" ></td>
+                            </form>
+                        </tr>
+                    </volist>>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6 offset1">
+            <form action="{:U("Provider/addUserProjectLibItem")}" method="post" >
+                一级类别：<input name="one" type="text" class="form-control"/>
+                项目名称：<input name="name" type="text" class="form-control"/>
+                英文简名：<input name="english" type="text" class="form-control"/>
+                检查项目：<input name="checkItem" type="text" class="form-control"/>
+                临床意义：<input name="linchuang" type="text" class="form-control"/>
+                备注：<input name="remark" type="text" class="form-control"/>
+                单价：<input name="price" type="text" class="form-control"/>
+                <input type="submit" value="新增" >
+            </form><br>
+        </div>
+
+    </div>
+</div>
+<include file="Public:footer"/>

@@ -1,0 +1,91 @@
+<include file="Public:header"/>
+<div class="container" style="margin-top: 50px">
+    <div class="row">
+        <div class="col-md-3 sidebar">
+            <include file="Public:providerSidebar"/>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table">
+                        <tr>
+                            <td>套餐名称</td>
+                            <td><input name="name" type="text" class="form-control" value="$name"/></td>
+                        </tr>
+                        <tr>
+                            <td>套餐分类</td>
+                            <td><input name="name" type="text" class="form-control" value="$type"/></td>
+                        </tr>
+                        <tr>
+                            <td>购买后体检周期</td>
+                            <td><input name="name" type="text" class="form-control" value="$timeline"/></td>
+                        </tr>
+                        <tr>
+                            <td>体检注意事项</td>
+                            <td><input name="name" type="text" class="form-control" value="$notice"/></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table">
+                    <tr>
+                        <th>序号</th>
+                        <th width="80">体检项目</th>
+                        <th width="50">价格</th>
+                        <th width="80">所属大类</th>
+                        <th width="280">意义</th>
+                        <th>性别</th>
+                        <th>婚姻状况</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>${id}</td>
+                        <td>${name}</td>
+                        <td>${price}</td>
+                        <td>${type}</td>
+                        <td>${content}</td>
+                        <td><input type="radio" checked="${sex}"/>男<input type="radio"/>女</td>
+                        <td><input type="radio" checked="${marriage}"/>未婚<input type="radio"/>已婚</td>
+                        <td><input type="button" value="删除"/></td>
+                    </tr>
+                </table>
+                <div class="row">
+                    <div class="col-md-10">
+                        <table class="table">
+                            <tr>
+                                <th>体检项目</th>
+                                <th width="50">价格</th>
+                                <th>所属大类</th>
+                                <th>意义</th>
+                                <th>性别</th>
+                                <th>婚姻状况</th>
+                            </tr>
+                            <tr>
+                                <td><select>
+                                    <option>从常用</option>
+                                </select></td>
+                                <td><input type="text" width="50"/></td>
+                                <td><select>
+                                    <option>从常用</option>
+                                </select></td>
+                                <td><textarea></textarea></td>
+                                <td><input type="radio"/>男<input type="radio"/>女</td>
+                                <td><input type="radio"/>未婚<input type="radio"/>已婚</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-2"><input type="button" value="新增"/></div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-5 col-md-offset-3">
+                        <input type="button" value="创建" class="btn"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public:footer"/>

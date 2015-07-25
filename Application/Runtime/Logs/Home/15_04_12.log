@@ -1,0 +1,9 @@
+[ 2015-04-12T23:06:51+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+

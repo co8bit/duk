@@ -1,0 +1,1759 @@
+[ 2015-04-29T01:32:43+08:00 ] ::1 /hst/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007213s ]
+
+[ 2015-04-29T01:32:46+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-04-29T01:33:08+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-04-29T01:33:30+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2015-04-29T01:33:31+08:00 ] ::1 /hst/index.php/Provider/corpinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+ERR: 模板不存在:./Application/Home/View/Provider/corpinfo.html
+
+[ 2015-04-29T01:35:34+08:00 ] ::1 /hst/index.php/Provider/corpinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 模板不存在:./Application/Home/View/Provider/corpinfo.html
+
+[ 2015-04-29T01:35:35+08:00 ] ::1 /hst/index.php/Provider/corpinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+ERR: 模板不存在:./Application/Home/View/Provider/corpinfo.html
+
+[ 2015-04-29T01:35:36+08:00 ] ::1 /hst/index.php/Provider/corpinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+ERR: 模板不存在:./Application/Home/View/Provider/corpinfo.html
+
+[ 2015-04-29T01:35:38+08:00 ] ::1 /hst/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-04-29T01:35:41+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-04-29T01:35:44+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-04-29T01:35:47+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-04-29T01:35:55+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-04-29T01:36:00+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2015-04-29T01:36:05+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2015-04-29T01:40:23+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2015-04-29T01:40:26+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2015-04-29T01:40:28+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-04-29T01:40:40+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-04-29T01:41:37+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-04-29T01:41:38+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-04-29T01:41:38+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-04-29T01:41:39+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-04-29T01:42:48+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-04-29T01:43:14+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-04-29T01:44:08+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2015-04-29T01:44:13+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-04-29T01:44:14+08:00 ] ::1 /hst/index.php/Provider/castService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2015-04-29T01:44:15+08:00 ] ::1 /hst/index.php/Provider/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-04-29T01:44:15+08:00 ] ::1 /hst/index.php/Provider/managebiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-04-29T01:44:16+08:00 ] ::1 /hst/index.php/Provider/manageservice.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-04-29T01:44:16+08:00 ] ::1 /hst/index.php/Provider/ownbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\f42f274948d85d5cd76f1c9d3e80aa3d.php 第 58 行.
+NOTIC: [8] Undefined variable: state C:\wamp\www\hst\Application\Runtime\Cache\Home\f42f274948d85d5cd76f1c9d3e80aa3d.php 第 59 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\f42f274948d85d5cd76f1c9d3e80aa3d.php 第 60 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\f42f274948d85d5cd76f1c9d3e80aa3d.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-04-29T01:44:17+08:00 ] ::1 /hst/index.php/Provider/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 48 行.
+NOTIC: [8] Undefined variable: idcard C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 52 行.
+NOTIC: [8] Undefined variable: sex C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 57 行.
+NOTIC: [8] Undefined variable: marrige C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 63 行.
+NOTIC: [8] Undefined variable: phone1 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 69 行.
+NOTIC: [8] Undefined variable: phone2 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 75 行.
+NOTIC: [8] Undefined variable: phone3 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 81 行.
+NOTIC: [8] Undefined variable: email C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 87 行.
+NOTIC: [8] Undefined variable: picture C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 93 行.
+NOTIC: [8] Undefined variable: nickname C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 99 行.
+NOTIC: [8] Undefined variable: picture C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 105 行.
+NOTIC: [8] Undefined variable: workin C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 114 行.
+NOTIC: [8] Undefined variable: career C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 120 行.
+NOTIC: [8] Undefined variable: namecard C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 126 行.
+NOTIC: [8] Undefined variable: year C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 132 行.
+NOTIC: [8] Undefined variable: skill C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 138 行.
+NOTIC: [8] Undefined variable: introduction C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 144 行.
+NOTIC: [8] Undefined variable: corpbook C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 150 行.
+NOTIC: [8] Undefined variable: time C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-04-29T01:44:18+08:00 ] ::1 /hst/index.php/Provider/projectlib.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\hst\Application\Runtime\Cache\Home\6e204582ca6254fef0788a992178ce97.php 第 72 行.
+NOTIC: [8] Undefined variable: test C:\wamp\www\hst\Application\Runtime\Cache\Home\6e204582ca6254fef0788a992178ce97.php 第 73 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\6e204582ca6254fef0788a992178ce97.php 第 74 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\hst\Application\Runtime\Cache\Home\6e204582ca6254fef0788a992178ce97.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-04-29T01:44:18+08:00 ] ::1 /hst/index.php/Provider/spread.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: id C:\wamp\www\hst\Application\Runtime\Cache\Home\cd455f979ad14d2e7fb57be71549a210.php 第 58 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\hst\Application\Runtime\Cache\Home\cd455f979ad14d2e7fb57be71549a210.php 第 59 行.
+NOTIC: [8] Undefined variable: discount C:\wamp\www\hst\Application\Runtime\Cache\Home\cd455f979ad14d2e7fb57be71549a210.php 第 60 行.
+NOTIC: [8] Undefined variable: cash C:\wamp\www\hst\Application\Runtime\Cache\Home\cd455f979ad14d2e7fb57be71549a210.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-04-29T01:45:48+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-04-29T01:48:08+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-29T01:48:53+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2015-04-29T01:49:15+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-04-29T01:49:16+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-04-29T01:49:43+08:00 ] ::1 /hst/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-04-29T01:50:08+08:00 ] ::1 /hst/index.php/de
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载控制器:De
+
+[ 2015-04-29T01:50:12+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 无法加载控制器:De
+
+[ 2015-04-29T01:50:41+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-04-29T01:50:43+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-04-29T01:52:43+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-04-29T01:53:04+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2015-04-29T01:53:10+08:00 ] ::1 /hst/index.php/Hr/castbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:11+08:00 ] ::1 /hst/index.php/Hr/corpinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:11+08:00 ] ::1 /hst/index.php/Hr/detailbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:12+08:00 ] ::1 /hst/index.php/Hr/personal.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:12+08:00 ] ::1 /hst/index.php/Hr/receivebiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:13+08:00 ] ::1 /hst/index.php/Hr/startbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:53:13+08:00 ] ::1 /hst/index.php/Hr/testdetail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:54:25+08:00 ] ::1 /hst/index.php/Hr/castbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:54:26+08:00 ] ::1 /hst/index.php/Hr/castbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:54:38+08:00 ] ::1 /hst/index.php/Hr/castbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载控制器:Hr
+
+[ 2015-04-29T01:54:41+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-04-29T01:54:42+08:00 ] ::1 /hst/index.php/HR/castbiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2015-04-29T01:54:45+08:00 ] ::1 /hst/index.php/HR/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: time C:\wamp\www\hst\Application\Runtime\Cache\Home\333150ec85c5ebaa6b937e9402bc100b.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-04-29T01:54:46+08:00 ] ::1 /hst/index.php/HR/corpinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: corpname C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 48 行.
+NOTIC: [8] Undefined variable: workin C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 52 行.
+NOTIC: [8] Undefined variable: worktype C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 57 行.
+NOTIC: [8] Undefined variable: destination C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 63 行.
+NOTIC: [8] Undefined variable: website C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 69 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 75 行.
+NOTIC: [8] Undefined variable: accountbank C:\wamp\www\hst\Application\Runtime\Cache\Home\6b7de16dcd3383e5d92ce82591409a3e.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-04-29T01:54:47+08:00 ] ::1 /hst/index.php/HR/castbiaoshu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-04-29T01:54:49+08:00 ] ::1 /hst/index.php/HR/receivebiaoshu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2015-04-29T01:55:46+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-04-29T01:55:50+08:00 ] ::1 /hst/index.php/Provider/corpinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 模板不存在:./Application/Home/View/Provider/corpinfo.html
+
+[ 2015-04-29T01:55:58+08:00 ] ::1 /hst/index.php/Provider/personal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 48 行.
+NOTIC: [8] Undefined variable: idcard C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 52 行.
+NOTIC: [8] Undefined variable: sex C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 57 行.
+NOTIC: [8] Undefined variable: marrige C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 63 行.
+NOTIC: [8] Undefined variable: phone1 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 69 行.
+NOTIC: [8] Undefined variable: phone2 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 75 行.
+NOTIC: [8] Undefined variable: phone3 C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 81 行.
+NOTIC: [8] Undefined variable: email C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 87 行.
+NOTIC: [8] Undefined variable: picture C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 93 行.
+NOTIC: [8] Undefined variable: nickname C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 99 行.
+NOTIC: [8] Undefined variable: picture C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 105 行.
+NOTIC: [8] Undefined variable: workin C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 114 行.
+NOTIC: [8] Undefined variable: career C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 120 行.
+NOTIC: [8] Undefined variable: namecard C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 126 行.
+NOTIC: [8] Undefined variable: year C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 132 行.
+NOTIC: [8] Undefined variable: skill C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 138 行.
+NOTIC: [8] Undefined variable: introduction C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 144 行.
+NOTIC: [8] Undefined variable: corpbook C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 150 行.
+NOTIC: [8] Undefined variable: time C:\wamp\www\hst\Application\Runtime\Cache\Home\29a197d379d4e25ff3999485fb8dcbcc.php 第 156 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2015-04-29T01:56:04+08:00 ] ::1 /hst/index.php/Provider/detailbiaoshu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 模板不存在:./Application/Home/View/Provider/detailbiaoshu.html
+
+[ 2015-04-29T01:56:19+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2015-04-29T01:56:21+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-04-29T01:56:23+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-04-29T01:56:24+08:00 ] ::1 /hst/index.php/Provider/buybiaoshu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: name C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 62 行.
+NOTIC: [8] Undefined variable: people C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 63 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 64 行.
+NOTIC: [8] Undefined variable: starttime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 65 行.
+NOTIC: [8] Undefined variable: endtime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 66 行.
+NOTIC: [8] Undefined variable: stoptime C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 67 行.
+NOTIC: [8] Undefined variable: price C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 68 行.
+NOTIC: [8] Undefined variable: priceon C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 69 行.
+NOTIC: [8] Undefined variable: priceget C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 70 行.
+NOTIC: [8] Undefined variable: pricetotal C:\wamp\www\hst\Application\Runtime\Cache\Home\a429c12d23746b0cfdf97b85a89d240d.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2015-04-29T01:57:59+08:00 ] ::1 /hst/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-04-29T01:58:07+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2015-04-29T01:58:09+08:00 ] ::1 /hst/index.php/HR/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 非法操作:login
+
+[ 2015-04-29T01:58:35+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2015-04-29T01:58:36+08:00 ] ::1 /hst/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-04-29T02:04:22+08:00 ] ::1 /hst/index.php/De
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2015-04-29T02:04:23+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [2] require_once(./Application//Home/Conf/MyConfigINI.php): failed to open stream: No such file or directory C:\wamp\www\hst\Application\Home\Controller\UserController.class.php 第 5 行.
+
+[ 2015-04-29T02:04:35+08:00 ] ::1 /hst/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 非法操作:login
+
+[ 2015-04-29T02:04:37+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-04-29T02:05:09+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-04-29T02:05:12+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-04-29T02:05:14+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-04-29T02:10:43+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-04-29T02:10:45+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+
+[ 2015-04-29T02:10:48+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2015-04-29T02:10:50+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-04-29T02:10:51+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2015-04-29T02:12:06+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-04-29T02:12:13+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2015-04-29T02:13:39+08:00 ] ::1 /hst/index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2015-04-29T02:21:57+08:00 ] ::1 /hst/index.php?m=Home&c=User&a=index
+ERR: 非法操作:index
+
+[ 2015-04-29T02:24:02+08:00 ] ::1 /hst/index.php/Provider/index.html
+ERR: 非法操作:index
+
+[ 2015-04-29T02:24:04+08:00 ] ::1 /hst/index.php/HR/index.html
+ERR: 非法操作:index
+
+[ 2015-04-29T02:27:55+08:00 ] ::1 /hst/index.php/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-04-29T02:28:36+08:00 ] ::1 /hst/index.php/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-04-29T02:28:43+08:00 ] ::1 /hst/index.php/Index/login.html
+ERR: 非法操作:login
+
+[ 2015-04-29T02:33:40+08:00 ] ::1 /hst/index.php/Provide/login.html
+ERR: 无法加载控制器:Provide
+
+[ 2015-04-29T02:33:44+08:00 ] ::1 /hst/index.php/Provide/
+ERR: 无法加载控制器:Provide
+
+[ 2015-04-29T02:33:56+08:00 ] ::1 /hst/index.php/Provider/
+ERR: 非法操作:index
+
+[ 2015-04-29T02:38:09+08:00 ] ::1 /hst/index.php/Provider/corpinfo
+ERR: 非法操作:corpinfo
+
+[ 2015-04-29T02:39:47+08:00 ] ::1 /hst/index.php/Provider/corpinfo
+ERR: 非法操作:corpinfo
+
+[ 2015-04-29T02:52:51+08:00 ] ::1 /hst/index.php/Provider/corpinfo
+ERR: 非法操作:corpinfo
+
+[ 2015-04-29T02:53:15+08:00 ] ::1 /hst/index.php/Provider/corpinfo.html
+ERR: 非法操作:corpinfo
+
+[ 2015-04-29T02:54:17+08:00 ] ::1 /hst/index.php/Provider/corpinfo
+ERR: 非法操作:corpinfo
+
