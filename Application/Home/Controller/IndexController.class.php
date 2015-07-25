@@ -18,6 +18,14 @@ class IndexController extends Controller
     
     public function index()
     {
+        echo '<br>登录：User/sign：
+            <form action="'.U("User/login").'" method="post" >
+                用户名:<input type="text" name="username" value=""/>
+                密码:<input type="text" name="password" value=""/>
+                <input type="submit" value="提交" >
+            </form><br>
+        ';
+
         echo '<br>注册：User/sign：
             <form action="'.U("User/sign").'" method="post" >
                 用户名:<input type="text" name="username" value=""/>
