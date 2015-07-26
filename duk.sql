@@ -20,7 +20,29 @@ create table user(
 	concernUser text not NULL,/*关注的用户*/
 
 	tag text not null,
+	zanTable text not null,
+
+	rongyun_token text not null,/*融云的Token*/
 
 	primary key(uid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
 INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `concernProblem`, `concernUser`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '', '', '', '');
+
+
+
+create table question(
+	qid bigint NOT NULL AUTO_INCREMENT,
+	uid bigint NOT NULL,
+	title TEXT NOT NULL,
+	tag TEXT NOT NULL,
+	
+	createTime datetime NOT NULL,
+	content text not null,
+
+	state int not null,/*0:未完成;1:完成*/
+	comment TEXT not null,/*评论*/
+
+	zan int not null,
+
+	primary key(sid)
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
