@@ -30,7 +30,7 @@ class QuestionController extends Controller
     {
         header("Content-Type:text/html; charset=utf-8");
         $this->uid		=		session("uid");
-        empty($this->uid) && exit("error"));
+        empty($this->uid) && exit("error");
     }
 
     

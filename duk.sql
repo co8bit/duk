@@ -46,3 +46,4 @@ create table question(
 
 	primary key(qid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
+1INSERT INTO `duk`.`question` (`qid`, `uid`, `title`, `tag`, `createTime`, `content`, `state`, `comment`, `zan`) VALUES (NULL, '1', '这是标题', '这是标签', '2015-08-07 04:00:00', '这是内容', '0', '', '');
