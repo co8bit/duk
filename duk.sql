@@ -44,5 +44,5 @@ create table question(
 
 	zan int not null,
 
-	primary key(sid)
+	primary key(qid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;

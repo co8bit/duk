@@ -65,8 +65,6 @@ class UserController extends Controller
                 exit("false");
             }
         }
-        else
-            $this->display();
     }
     
 
