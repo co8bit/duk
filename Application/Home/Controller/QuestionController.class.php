@@ -110,6 +110,42 @@ class QuestionController extends Controller
     }
 
 
+    /**
+     * 查询私戳用户列表
+     * @param int page 当前的页数
+     * @param int userPageNum 每页用户数量,默认为6
+     * @return error "" page过大或没有此类用户
+     * @return json 用户信息，形如：
+     *         {
+     *             "pageTotalNum":2,//总页数
+     *             "content":[ //具体的内容
+     *                 {},//一个用户
+     *                 {}
+     *             ]
+     *         }
+     */
+    public function queryUser()
+    {
+        $queryUser     =   D("User");
+
+        $page   =   I("param.page",1);
+        $userPageNum  =   I("param.userPageNum",_User_PAGE_NUM);;
+        
+        $condition  =   "state=0";
+
+        $UserCount = $queryUser->where($condition)->count();
+        $UserTotalPageNum   =   ceil($UserCount / $userPageNum);
+
+        if ($page > $UserTotalPageNum)
+            exit("error");
+
+        $result     =   $queryUser->where($condition)->order("uid")->limit(($page-1) * $userPageNum,$userPageNum)->select();
+
+        $tmp    =   null;
+        $tmp["pageTotalNum"] = $UserTotalPageNum;
+        $tmp["content"]    =   $this->trimForAjax($result);
+        $this->ajaxReturn($tmp);
+    }
 
 
 
