@@ -49,29 +49,30 @@ class IndexController extends Controller
             </form><br>
         ';
 
-        echo APP_PATH."<br>";
-        echo _UPLOADPATH;
+       
 
-
-        echo '<br>测试Activity/create：
-            <form action="'.U("Activity/create").'" enctype="multipart/form-data" method="post" >
-                file:<input type="file" name="logoPic" />
+        echo '<br>User/follow:
+            <form action="'.U("User/follow").'" enctype="multipart/form-data" method="post" >
+                要关注的人的uid:<input type="text" name="toUid" value=""/>
                 <input type="submit" value="提交" >
             </form><br>
         ';
-        echo '<br>测试Activity/edit:
-            <form action="'.U("Activity/edit").'" enctype="multipart/form-data" method="post" >
-                mode:<input type="text" name="mode" value="2"/>
-                sid:<input type="text" name="aid" value="2"/>
-                file:<input type="file" name="logoPic" />
+         echo '<br>User/unfollow:
+            <form action="'.U("User/unfollow").'" enctype="multipart/form-data" method="post" >
+                要取消关注的人的uid:<input type="text" name="toUid" value=""/>
                 <input type="submit" value="提交" >
             </form><br>
         ';
-        
-        echo '<br>测试活动名单导出：
-            <form action="'.U("Activity/createActivityUserExcel").'" method="post" >
-                aid:<input type="text" name="aid" value="1"/>
-                <input type="submit" value="下载" >
+         echo '<br>User/isFollow:
+            <form action="'.U("User/isFollow").'" enctype="multipart/form-data" method="post" >
+                要查询的人的uid:<input type="text" name="toUid" value=""/>
+                <input type="submit" value="提交" >
+            </form><br>
+        ';
+         echo '<br>User/userFollowList:
+            <form action="'.U("User/userFollowList").'" enctype="multipart/form-data" method="post" >
+                要查询的人的uid:<input type="text" name="toUid" value=""/>
+                <input type="submit" value="提交" >
             </form><br>
         ';
     }
