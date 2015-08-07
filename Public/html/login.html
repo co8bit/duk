@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="shortheader">
+          <div class="content">
+              <img src="../img/ic_arrow_back_24px.png" class="return left"/>
+              <span class="left">登录</span>
+          </div>
+      </div>
+      <div class="container">
+          <p class="headshot"><img src="../img/headshot-example.png"/></p>
+          <div class="inputfield">
+              <input placeholder="用户名" name="username"/>
+          </div>
+          <div class="inputfield">
+              <input placeholder="密码" type="password" name="password"/>
+          </div>
+          <div class="radiofield">
+              <div class="left">
+                  <div class="checkbox"></div><span class="maincolor">记住我</span>
+              </div>
+              <div class="right">
+                  <span class="maincolor">记住密码？</span>
+              </div>
+          </div>
+          <div class="btn login" onclick="login()">
+              登陆
+          </div>
+          <div class="center"><img src="../img/ic_login_bg.png" width="100%"/></div>
+
+      </div>
+
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

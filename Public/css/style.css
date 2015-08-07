@@ -1,0 +1,48 @@
+*{margin:0;padding: 0;font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu}
+.fixed{position: fixed}
+.left{float: left}
+.right{float: right}
+.clear{clear: both}
+input {outline: none;}textarea {outline: none;}
+
+.sidebar{position: fixed;top: 0}
+.sidebar{width: 70%;height:100%;background: #fff;display: none;z-index:10;box-shadow: 5px 0 40px #000}
+.sidebar-container{height: 100%;overflow-y:scroll}
+.sidebar-title{padding-left: 4rem;background: #e3ecf5;padding-bottom: 10rem;overflow: hidden}
+.sidebar-title-headshot{width: 20%}
+.sidebar-content{font-size: 5rem;width: 70%;margin-left: 4rem;}
+.sidebar .sidebar-title-headshot img{border-radius: 50%;}
+.sidebar-content-tag{font-size: 3rem;color: #fbae17}
+.sidebar li{padding:6rem 4.5rem;}
+.sidebar li img{width: 5.5rem;margin-right: 9rem;vertical-align: middle}
+.sidebar li span{vertical-align: middle;font-size: 3.75rem}
+
+
+.header{background: #ffc107;height: 33.125rem;}
+.header{overflow: hidden}
+.header-btns{margin-top: 4rem;padding: 0 2rem;overflow: hidden}
+.header-btns img{height: 4rem;margin-right: 6rem}
+.header-root{font-size: 6.5rem;margin-top: 8rem}
+.header-search{width: 100%;height:10rem;position: absolute;top: 0;background: #fff;box-shadow: 0 0 5rem #000;line-height: 10rem;display: none}
+.header-search img{width: 4.5rem;vertical-align: middle;margin-left: 5rem}
+.header-search input{width: 60%;border: none;font-size: 5rem;vertical-align: middle;margin-left: 5%}
+
+.shortheader{height: 15rem;background: #ffc107;box-shadow: 0 0.8rem 3rem #333;padding: 0 4.5rem}
+.shortheader span{margin-left: 6rem}
+.shortheader .content{padding-top: 3rem;font-size: 6.25rem;}
+.shortheader .content img{width: 4rem;margin-top: 2.5rem;}
+
+.dialog{display:none;position:relative;background: #fff;border-radius: 5px;height:60%;width: 70%;margin-left: 10%;position: fixed;top: 20%;box-shadow: 0 0 10px #000;padding: 5%}
+.dialog-header-headshot{float:left;height: 10.5rem;background: #656565;border-radius: 50%;}
+.dialog-header-content{float: left;font-size: 4.5rem;margin-left: 4rem;}
+.dialog-header-content p {font-size: 4rem;color: #fbae17}
+.dialog-content{clear: both;font-size: 4rem;padding-top: 4rem}
+.dialog-content p{color: #979797;margin-top: 4rem}
+.dialog-bottom{position: absolute;bottom: 0;right: 0}
+.dialog-bottom-btn{padding: 2rem 3rem;font-size: 3rem;color: #009688}
+
+
+
+
+img.fixed{bottom: 2rem;right: 2rem;width: 15rem;height: 15rem;box-shadow: 0 0 10px #000;border-radius: 50%}
+.divider{height: 1px;background: #e0e0e0}

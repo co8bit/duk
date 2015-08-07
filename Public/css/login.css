@@ -1,0 +1,15 @@
+body{background: #ffeb3b;}
+.maincolor{color: #bdae2c}
+.container{width: 90%;margin: 0 auto}
+.headshot{text-align: center;margin-top: 5rem}
+.headshot img{width: 17rem;height: 17rem;border-radius: 50%;}
+.inputfield input{background: none;border: none;border-bottom: 5px solid #ff6f00;width:100%;font-size: 6rem;margin: 3rem 0;color: #bdae2c;padding-bottom: 1rem}
+div.checkbox{width: 2rem;height: 2rem;background: none;display: inline-block;border:0.5rem solid #b4a62a;border-radius: 5px;}
+.radiofield{overflow: hidden}
+.radiofield .maincolor{font-size: 2.5rem;vertical-align: top;margin-left:1rem}
+.login{height: 7rem;background: #ff6f00;color: #ffffff;font-size: 3rem;line-height: 7rem;text-align: center;margin-top: 5rem;border-radius: 0.5rem;box-shadow: 0 2px 10px #666}
+
+
+#register .headshot{text-align: left}
+#register .headshot .maincolor{font-size: 6rem;vertical-align: 80%;margin-left: 2rem}
+.verify{padding: 0 2rem}

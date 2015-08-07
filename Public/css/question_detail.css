@@ -1,0 +1,22 @@
+body{background: #fff;padding-bottom: 4rem;}
+.container{width: 90%;margin: 0 auto;padding-bottom: 3rem;position: relative}
+.container .subtitle{font-size: 3rem;color: #c0c0c0;margin-top: 6rem;}
+.container input{border: 0;border-bottom: 0.4rem solid #009688;display: block;width: 100%;font-size: 6rem;padding-bottom: 2rem}
+
+.container .content.tag{color: #fbae17}
+.container .content img{width: 5rem;margin-right: 4rem}
+.container .divider{height: 2px;background:#e0e0e0}
+.container .title{font-size: 6rem;margin-top: 6.5rem}
+.container .tag{font-size: 3rem;color: #fbae17}
+.hero{width: 100%;height: 50rem;background: #bdbdbd;margin-top: 4rem;}
+.container .content{font-size: 4.5rem;color: #757575;line-height: 5rem;margin: 3rem 0}
+.container .author{font-size: 3rem;color: #757575;}
+.container .author b{color: #fbae17;margin-left: 1rem;font-weight: normal}
+.container .author .btns img{margin: 0 1.5rem}
+.divider{height: 1px;background: #e0e0e0}
+.container .reply{font-weight: bold;color: #000;font-size: 4rem;}
+.replyCon{height: 10rem;padding-top: 8rem;padding-bottom: 2rem;height: auto}
+.reply-content{margin-top: 6rem;font-size: 4.5rem;color: #979797}
+
+
+

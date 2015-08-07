@@ -1,0 +1,15 @@
+body{background: #f4f4f4}
+
+.container{width: 95%;margin: 0 auto}
+.chatItem{overflow: hidden}
+
+
+.chatItem.send .headshot{width: 10.5rem;margin: 4rem}
+.chatItem.send .triangle{vertical-align: top;display: inline-block;margin-top: 4rem;width:3.6rem; }
+.chatItem.send .chat-content{font-size:4rem;display: inline-block;width: 50%;background: #fbae17;vertical-align: top;margin-top: 4rem;margin-left: -2rem;border-radius: 10px;padding: 2rem;color: #979797}
+
+.chatItem.receive{text-align: right}
+.chatItem.receive .headshot{width: 10.5rem;margin: 4rem}
+.chatItem.receive .triangle{vertical-align: top;display: inline-block;margin-top: 4rem;width:3.6rem; }
+.chatItem.receive .chat-content{font-size:4rem;display: inline-block;width: 50%;background: #fbae17;vertical-align: top;margin-top: 4rem;margin-right: -2rem;border-radius: 10px;padding: 2rem;color: #979797}
+

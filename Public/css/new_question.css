@@ -1,0 +1,11 @@
+body{background: #fff;padding-bottom: 4rem;}
+.container{width: 90%;margin: 0 auto}
+.container .subtitle{font-size: 3rem;color: #c0c0c0;margin-top: 6rem;}
+.container input{border: 0;border-bottom: 0.4rem solid #009688;display: block;width: 100%;font-size: 6rem;padding-bottom: 2rem}
+.container .content{font-size: 4.5rem;color: #757575;line-height: 5rem;margin: 1.5rem 0}
+.container .content.tag{color: #fbae17}
+.container .content img{width: 5rem;margin-right: 4rem}
+.container .divider{height: 2px;background:#e0e0e0}
+
+
+

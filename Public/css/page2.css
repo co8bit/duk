@@ -1,0 +1,6 @@
+body{background: #1c1c1c}
+.pic-Item{width: 43.75rem;height: 43.75rem;background-size: cover;border-radius: 10px;float: left;margin: 2rem 0 0 2rem;position: relative}
+
+.pic-Item .pic-Item-position{position: absolute;bottom: 2rem;left: 2rem}
+.pic-Item h1{color: #ffffff;font-size: 4.5rem;font-weight: normal}
+.pic-Item h2{font-size: 3rem;color: #fbae17;font-weight: normal}

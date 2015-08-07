@@ -1,0 +1,19 @@
+body{background: #fff}
+
+
+.hero.headshot{background: url("../img/background.jpg");height: 85rem;background-size: cover;position: relative}
+.headershot-content{height: 38.5rem;background: rgba(0,0,0,0.5);position: absolute;width: 100%;bottom: 0;padding: 0 4rem}
+.headershot-content h1{font-size: 6rem;color: #ffffff;font-weight: normal;margin-top: 8rem}
+.headershot-content h2{font-size: 4rem;color: #fbae17;margin-top: 1rem}
+.headershot-content .header-btns img{height: 5rem;margin-top: 1rem}
+.textBlack{font-size: 5rem;line-height: 5rem;padding: 4rem}
+
+.personItem{overflow: hidden;padding-top: 4rem;}
+.personItem-headshot{float: left;background: #fff;width: 11rem;height: 11rem;border-radius: 50%;margin:0 4rem}
+.personItem-content{overflow: hidden;border-bottom:4px solid #fff;padding-bottom: 4rem}
+.personItem-content p{color:#000;font-size: 4rem;}
+.personItem-content h3{color:#fbae17;font-size: 3rem;margin-top: 2rem}
+.personItem-content .personItem-divider{width: 100%;height: 4px;background: #fff;margin-top: 4rem;clear: both}
+.personItem-content-column1{float: left;overflow: hidden}
+.personItem-content-column2{float: right}
+.personItem-content-column2 .more{margin:4rem 4rem 0 0;width: 4rem;height: 4rem;background: #fbae17;border-radius: 50%;color: white;text-align: center;line-height: 4rem;font-size: 2rem;font-weight: bold}

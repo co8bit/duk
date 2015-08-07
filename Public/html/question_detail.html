@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/question_detail.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="shortheader">
+        <div class="content">
+            <img src="../img/ic_arrow_back_24px.png" class="return left"/>
+            <img src="../img/ic_share.png" class="confirm right"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="title" data-template="title">Title here</div>
+        <div class="tag" data-template="tag">Tag1 / Tag2 / Tag3 / Tag4</div>
+    </div>
+    <div class="hero">
+
+    </div>
+    <div class="container">
+        <div class="content" data-template="content">asdhkkhqwee amsdhjkasdhqwehkak lh askd  qwemns sajkqwhe mjhas qweg sd qwe </div>
+        <div class="author">by<b>Person 1</b>
+            <div class="right btns">
+                <img src="../img/ic_like_grey.png"/>
+                <img src="../img/ic_flag.png"/>
+                <img src="../img/ic_back.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container replyCon">
+        <p class="reply">Reply</p>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="content" data-template="comment">asdhkkhqwee amsdhjkasdhqwehkak lh askd  qwemns sajkqwhe mjhas qweg sd qwe </div>
+        <div class="author">by<b>Person 1</b>
+            <div class="right btns">
+                <img src="../img/ic_like_grey.png"/>
+                <img src="../img/ic_flag.png"/>
+                <img src="../img/ic_back.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="dialog">
+        <div class="dialog-header">
+            <div class="dialog-header-headshot">
+
+            </div>
+            <div class="dialog-header-content">
+                Person 2
+                <p>tag1 / tag2 / tag3</p>
+            </div>
+        </div>
+        <div class="dialog-content">
+            <div>个人简介</div>
+            <p>
+                asdkasdkasd jasgdjagsd kqwehk asdkh qwe a asdhkqwhe asdhkqwe a jkd hqwehj,azdkh ad hwq qweh kasd
+            </p>
+        </div>
+        <div class="dialog-bottom">
+            <div class="dialog-bottom-btn right">发起聊天</div>
+            <div class="dialog-bottom-btn right">返回</div>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+        var qid = (window.location.href.split('='))[1];
+        $(document).ready(function () {
+            loadData();
+        })
+        function loadData(){
+            $.post(window.ajaxAddress+'/Question/queryOne',{qid:qid},function(data){
+                drawDom(data)
+            })
+        }
+        function drawDom(item){
+            item.tag = item.tag.join('/');
+            for(var i in item){
+                $('[data-template="'+i+'"]').html(item[i]);
+            }
+
+        }
+    </script>
+    <!--<script src="../js/index.js"></script>-->
+  </body>
+</html>
