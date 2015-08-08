@@ -14,14 +14,14 @@
 <body>
 <div class="shortheader">
     <div class="content">
-        <img src="../img/ic_reorder_24px.png" class="return left"/>
+        <img src="../img/ic_arrow_back_24px.png" class="return left"/>
         <span class="left">个人主页</span>
     </div>
 </div>
 <div class="hero headshot">
     <div class="headershot-content">
-        <h1>Person1</h1>
-        <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
+        <h1 data-template="name">Person1</h1>
+        <h2 data-template="tag">Tag1 / Tag2 / Tag3 / Tag4</h2>
         <div class="header-btns">
             <img src="../img/ic_like_white.png" class="left"/>
             <img src="../img/ic_flag_white.png" class="left"/>
@@ -29,62 +29,78 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="textBlack">"Person1"关注的人</div>
-</div>
+<div class="textBlack">"Person1"关注的人</div>
 <div class="divider"></div>
 <div class="container">
-    <div class="personItem">
-        <div class="personItem-headshot">
-            <img src="../img/headshot-example.png" width="100%"/>
-        </div>
-        <div class="personItem-content">
-            <div class="personItem-content-column1">
-                <p>Person1</p>
-                <h3>Tag1/Tag2/Tag3</h3>
-            </div>
-            <div class="personItem-content-column2">
-                <div class="more">
-                    i
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="personItem">
-        <div class="personItem-headshot">
-            <img src="../img/headshot-example.png" width="100%"/>
-        </div>
-        <div class="personItem-content">
-            <div class="personItem-content-column1">
-                <p>Person1</p>
-                <h3>Tag1/Tag2/Tag3</h3>
-            </div>
-            <div class="personItem-content-column2">
-                <div class="more">
-                    i
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="personItem">
-        <div class="personItem-headshot">
-            <img src="../img/headshot-example.png" width="100%"/>
-        </div>
-        <div class="personItem-content">
-            <div class="personItem-content-column1">
-                <p>Person1</p>
-                <h3>Tag1/Tag2/Tag3</h3>
-            </div>
-            <div class="personItem-content-column2">
-                <div class="more">
-                    i
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--<div class="personItem">-->
+        <!--<div class="personItem-headshot">-->
+            <!--<img src="../img/headshot-example.png" width="100%"/>-->
+        <!--</div>-->
+        <!--<div class="personItem-content">-->
+            <!--<div class="personItem-content-column1">-->
+                <!--<p>Person1</p>-->
+                <!--<h3>Tag1/Tag2/Tag3</h3>-->
+            <!--</div>-->
+            <!--<div class="personItem-content-column2">-->
+                <!--<div class="more">-->
+                    <!--i-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 <script src="../js/jquery-1.11.0.js"></script>
 <script src="../js/common.js"></script>
-<script src="../js/index.js"></script>
+<script>
+    var GLOBAL = {
+        dataArray : new Array()
+    };
+    $(document).ready(function () {
+        $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
+            $.post(window.ajaxAddress+'/User/userFollowList',{toUid:userInfo},function(data){
+                for(var i = 0 ; i < data.length ; i++){
+                    $.post(window.ajaxAddress+'/User/getUserInfo',{uid:data[i]},function(userInfo){
+                        GLOBAL.dataArray.push(userInfo);
+                        if(!userInfo.tag){
+                            var tag = '没有标签';
+                        }else{
+                            var tag = userInfo.tag.join('/');
+                        }
+                        var html = '<div class="personItem">\
+                            <div class="personItem-headshot">\
+                            <img src="../img/headshot-example.png" width="100%"/>\
+                            </div>\
+                    <div class="personItem-content">\
+                            <div class="personItem-content-column1">\
+                            <p>'+userInfo.name+'</p>\
+                    <h3>'+tag+'</h3>\
+                    </div>\
+                    <div class="personItem-content-column2">\
+                            <div class="more">\
+                            i\
+                            </div>\
+                    </div>\
+                    </div>\
+                    </div>';
+                        $('.container').html(html);
+                    })
+                }
+            })
+            $.post(window.ajaxAddress+'/User/getUserInfo',{uid:userInfo}, function (item) {
+                if(!item.tag){
+                    var tag = '没有标签';
+                }else{
+                    var tag = item.tag.join('/');
+                }
+                for(var i in item){
+                    $('[data-template="'+i+'"]').html(item[i]);
+                }
+                $('[data-template="tag"]').html(tag);
+            })
+        })
+    })
+
+
+</script>
 </body>
 </html>

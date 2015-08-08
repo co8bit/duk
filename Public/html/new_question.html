@@ -21,18 +21,35 @@
     </div>
     <div class="container">
         <div class="subtitle">Title</div>
-        <input value="Input text" class="input"/>
+        <input class="input" placeholder="Input text" type="text" name="title"/>
         <div class="subtitle">Description</div>
-        <div class="content">akshdk asdhajkqwe qwm,e qwme qwe awe</div>
-        <div class="divider"></div>
+        <input class="input" placeholder="Input text" type="text" name="content"/>
         <div class="subtitle">Tags</div>
-        <div class="content tag">Tag1 / Tag2 / Tag3 / Tag4</div>
-        <div class="divider"></div>
+        <input class="input" placeholder="Input text" type="text" name="tags"/>
         <div class="content"><img src="../img/ic_attach_file_24px.png"/><img src="../img/ic_insert_photo_24px.png"/></div>
-
     </div>
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('input[type="text"]').focus(function () {
+                $(this).addClass('focus');
+            })
+            $('input[type="text"]').blur(function () {
+                $(this).removeClass('focus');
+            })
+        })
+        $('.confirm').click(function () {
+            var post = {};
+
+            post.title = $('input[name="title"]').val();
+            post.content = $('input[name="content"]').val();
+
+            post.createTime = getFormatTime(new Date());
+            $.post(window.ajaxAddress+'/Question/create',post,function(data){
+                window.location.href = "index.html";
+            })
+        })
+    </script>
   </body>
 </html>

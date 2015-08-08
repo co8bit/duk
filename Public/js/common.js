@@ -15,4 +15,58 @@ $('.more.left').click(function(){
 $('.search').click(function(){
     $('.header-search').show();
 })
+function hackDate(str){
+    var reg = new RegExp('-',"g");
+    try{
+        var date = new Date(str.replace(reg,'/'));
+        return date;
+    }catch(e){
+        alert(123);
+        var ymd = (str.split(' '))[0];
+        var hms = (str.split(' '))[1];
+        var ymdArray = ymd.split('-');
+        var hmsArray = hms.split(':');
+        var year = parseInt(ymdArray[0]);
+        var month = parseInt(ymdArray[1])-1;
+        var day = parseInt(ymdArray[2]);
+        var hour = parseInt(hmsArray[0]);
+        var minute = parseInt(hmsArray[1]);
+        var second = parseInt(hmsArray[2]);
+        return new Date(year,month,day,hour,minute,second);
+    }
+}
+//时间格式化
+Date.prototype.format =function(format)
+{
+    var o = {
+        "M+" : this.getMonth()+1, //month
+        "d+" : this.getDate(),    //day
+        "h+" : this.getHours(),   //hour
+        "m+" : this.getMinutes(), //minute
+        "s+" : this.getSeconds(), //second
+        "q+" : Math.floor((this.getMonth()+3)/3),  //quarter
+        "S+" : this.getMilliseconds()
+    }
+    if(/(y+)/.test(format)) format=format.replace(RegExp.$1,
+        (this.getFullYear()+"").substr(4- RegExp.$1.length));
+    if(new RegExp("(S+)").test(format)){
+        format=format.replace(RegExp.$1,
+                RegExp.$1.length==1? o["S+"] :
+                ("000"+ o["S+"]).substr((""+ o["S+"]).length));
+    }
+    for(var k in o)if(new RegExp("("+ k +")").test(format))
+        format = format.replace(RegExp.$1,
+                RegExp.$1.length==1? o[k] :
+                ("00"+ o[k]).substr((""+ o[k]).length));
+
+    return format;
+}
+function getFormatTime(date){
+    return date.format('yyyy-MM-dd hh:mm:ss');
+}
 window.ajaxAddress = "/duk/index.php";
+$(document).ready(function () {
+    $('.return.left').click(function () {
+        history.back(-1);
+    })
+})

@@ -3,6 +3,7 @@
 .left{float: left}
 .right{float: right}
 .clear{clear: both}
+a{color: #000000}
 input {outline: none;}textarea {outline: none;}
 
 .sidebar{position: fixed;top: 0}
@@ -18,11 +19,14 @@ input {outline: none;}textarea {outline: none;}
 .sidebar li span{vertical-align: middle;font-size: 3.75rem}
 
 
-.header{background: #ffc107;height: 33.125rem;}
+.header{background: #ffc107;}
 .header{overflow: hidden}
-.header-btns{margin-top: 4rem;padding: 0 2rem;overflow: hidden}
+.header-btns{margin-top: 4rem;padding: 0 2rem;overflow: hidden;margin-bottom: 4rem}
 .header-btns img{height: 4rem;margin-right: 6rem}
-.header-root{font-size: 6.5rem;margin-top: 8rem}
+.header-root{font-size: 6.5rem;margin-top: 8rem;clear: both}
+.header-root ul{overflow: hidden}
+.header-root ul li{float: left;width: 50%;list-style: none;text-align: center;padding-bottom: 3rem;border-bottom: 0.5rem solid #ffc107}
+.header-root ul li.on{border-color: #ffffff;color: #ffffff}
 .header-search{width: 100%;height:10rem;position: absolute;top: 0;background: #fff;box-shadow: 0 0 5rem #000;line-height: 10rem;display: none}
 .header-search img{width: 4.5rem;vertical-align: middle;margin-left: 5rem}
 .header-search input{width: 60%;border: none;font-size: 5rem;vertical-align: middle;margin-left: 5%}
@@ -32,8 +36,8 @@ input {outline: none;}textarea {outline: none;}
 .shortheader .content{padding-top: 3rem;font-size: 6.25rem;}
 .shortheader .content img{width: 4rem;margin-top: 2.5rem;}
 
-.dialog{display:none;position:relative;background: #fff;border-radius: 5px;height:60%;width: 70%;margin-left: 10%;position: fixed;top: 20%;box-shadow: 0 0 10px #000;padding: 5%}
-.dialog-header-headshot{float:left;height: 10.5rem;background: #656565;border-radius: 50%;}
+.dialog{display:none;position:relative;background: #fff;border-radius: 5px;height:60%;width: 70%;margin-left: 10%;position: fixed;top: 20%;box-shadow: 0 0 10px #000;padding: 5%;overflow-y: auto;z-index: 10}
+.dialog-header-headshot{float:left;width:10.5rem;height: 10.5rem;background: #656565;border-radius: 50%;}
 .dialog-header-content{float: left;font-size: 4.5rem;margin-left: 4rem;}
 .dialog-header-content p {font-size: 4rem;color: #fbae17}
 .dialog-content{clear: both;font-size: 4rem;padding-top: 4rem}

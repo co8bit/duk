@@ -22,7 +22,10 @@
               <img src="../img/search.png" class="right search"/>
           </div>
           <div class="header-root">
-              <div>大厅 > 私戳</div>
+              <ul>
+                  <a href="page3.html"><li>大厅</li></a>
+                  <li class="on">私戳</li>
+              </ul>
           </div>
       </div>
     <div class="sidebar">
@@ -45,47 +48,90 @@
             </ul>
         </div>
     </div>
+      <div class="dialog">
+          <div class="dialog-header">
+              <div class="dialog-header-headshot">
+                  <img src="../img/headshot-example.png" width="100%" height="100%"/>
+              </div>
+              <div class="dialog-header-content">
+                  <span data-template="name"></span>
+                  <p data-template="tag"></p>
+              </div>
+          </div>
+          <div class="dialog-content">
+              <div>个人简介</div>
+              <p data-template="content">
+                  asdkasdkasd jasgdjagsd kqwehk asdkh qwe a asdhkqwhe asdhkqwe a jkd hqwehj,azdkh ad hwq qweh kasd
+              </p>
+          </div>
+          <div class="dialog-bottom">
+              <a href="chat.html"><div class="dialog-bottom-btn right">发起聊天</div></a>
+              <div class="dialog-bottom-btn right">返回</div>
+          </div>
+      </div>
     <div class="container">
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
-        <div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">
-            <div class="pic-Item-position">
-                <h1>Person 1</h1>
-                <h2>Tag1 / Tag2 / Tag3 / Tag4</h2>
-            </div>
-        </div>
+        <!--<div class="pic-Item" style="background-image:url('../img/20693bdf285589c8cfab3cc26aabdfde.jpg')">-->
+            <!--<div class="pic-Item-position">-->
+                <!--<h1>Person 1</h1>-->
+                <!--<h2>Tag1 / Tag2 / Tag3 / Tag4</h2>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
-    <img src="../img/fix1.png" class="fixed" width="100%"/>
+      <a href="index.html"><img src="../img/fix1.png" class="fixed" width="100%"/></a>
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/index.js"></script>
+  <script>
+      var GLOBAL = {
+          dataArray : new Array()
+      };
+      $(document).ready(function () {
+          loadData();
+          $('.search-return').click(function(){
+              $('.header-search').hide();
+          })
+      })
+      function loadData(){
+          $.post(window.ajaxAddress+'/Question/queryUser',{page:1},function(data){
+              var result = data.content;
+              GLOBAL.dataArray = GLOBAL.dataArray.concat(result);
+              var html = '';
+              for(var i = 0 ; i < result.length ; i++){
+                  html += questionTemp(result[i]);
+              }
+              $('.container').append(html);
+          })
+      }
+      function questionTemp(item){
+          if(!item.tag){
+              var tag = '没有标签';
+          }else{
+              var tag = item.tag.join('/');
+          }
+          return '<div class="pic-Item" style="background-image:url(\''+(item.logoPic||("../img/headshot-example.png"))+'\')" onclick="showDialog('+item.uid+')">\
+          <div class="pic-Item-position">\
+                  <h1>'+(item.realname||item.name)+'</h1>\
+          <h2>'+tag+'</h2>\
+          </div>\
+          </div>'
+      }
+      function showDialog(uid){
+          var item;
+          for(var i = 0 ; i < GLOBAL.dataArray.length ; i++){
+              if(GLOBAL.dataArray[i].uid = uid){
+                  item = GLOBAL.dataArray[i];
+                  break;
+              }
+          }
+          if(!item.tag){
+              var tag = '没有标签';
+          }else{
+              var tag = item.tag.join('/');
+          }
+          for(var i in item){
+              $('.dialog [data-template="'+i+'"]').html(item[i]);
+          }
+          $('.dialog').show()
+      }
+  </script>
   </body>
 </html>

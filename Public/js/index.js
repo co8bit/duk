@@ -9,12 +9,19 @@
 //var person = new Person('Nicholas');
 //alert(person.getName());
 //console.log(person);
+var GLOBAL = {
+    dataArray : new Array()
+};
 $(document).ready(function () {
     loadData();
+    $('.search-return').click(function(){
+        $('.header-search').hide();
+    })
 })
 function loadData(){
-    $.post(window.ajaxAddress+'/Question/queryAll',{page:1},function(data){
+    $.post(window.ajaxAddress+'/Question/queryUser',{page:1},function(data){
         var result = data.content;
+        GLOBAL.dataArray = GLOBAL.dataArray.concat(result);
         var html = '';
         for(var i = 0 ; i < result.length ; i++){
             html += questionTemp(result[i]);
@@ -23,14 +30,19 @@ function loadData(){
     })
 }
 function questionTemp(item){
-    return '<a href="question_detail.html?id='+item.qid+'"><div class="personItem">\
+    if(!item.tag){
+        var tag = '没有标签';
+    }else{
+        var tag = item.tag.join('/');
+    }
+    return '<div class="personItem" onclick="showDialog('+item.uid+')">\
         <div class="personItem-headshot">\
-        <img src=""/>\
+        <img src="'+(item.logoPic||("../img/headshot-example.png"))+'" width="100%" height="100%"/>\
         </div>\
     <div class="personItem-content">\
         <div class="personItem-content-column1">\
-            <p>'+item.title+'</p>\
-            <h3>'+item.tag.join('/')+'</h3>\
+            <p>'+item.realName+'</p>\
+            <h3>'+tag+'</h3>\
         </div>\
         <div class="personItem-content-column2">\
             <div class="more">\
@@ -38,5 +50,23 @@ function questionTemp(item){
             </div>\
         </div>\
     </div>\
-    </div></a>'
+    </div>'
+}
+function showDialog(uid){
+    var item;
+    for(var i = 0 ; i < GLOBAL.dataArray.length ; i++){
+        if(GLOBAL.dataArray[i].uid = uid){
+            item = GLOBAL.dataArray[i];
+            break;
+        }
+    }
+    if(!item.tag){
+        var tag = '没有标签';
+    }else{
+        var tag = item.tag.join('/');
+    }
+    for(var i in item){
+        $('.dialog [data-template="'+i+'"]').html(item[i]);
+    }
+    $('.dialog').show()
 }

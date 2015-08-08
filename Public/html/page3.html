@@ -14,15 +14,18 @@
   <body>
   <div class="header">
       <div class="header-search">
-          <img src="../img/ic_arrow_back_24px.png"/><input placeholder="Hint Text"/>
+          <img src="../img/ic_arrow_back_24px.png" class="search-return"/><input placeholder="Hint Text"/>
       </div>
       <div class="header-btns">
           <img src="../img/ic_reorder_24px.png" class="left more"/>
-          <img src="../img/ic_add_24px.png" class="right"/>
+          <a href="new_question.html"><img src="../img/ic_add_24px.png" class="right"/></a>
           <img src="../img/search.png" class="right search"/>
       </div>
       <div class="header-root">
-          <div>大厅 > 私戳</div>
+          <ul>
+              <li class="on">大厅</li>
+              <a href="index.html"><li>私戳</li></a>
+          </ul>
       </div>
   </div>
     <div class="sidebar">
@@ -46,54 +49,31 @@
         </div>
     </div>
     <div class="container">
-        <div class="question-item">
-            <div class="item-content">
-                <div class="question-item-header">
-                    <div class="left title">
-                        <h3>Title here</h3>
-                        <h4>tag1/tag2/tag3</h4>
-                    </div>
-                    <div class="right headshot">
-                    </div>
-                </div>
-                <div class="question-item-content">
-                    this is a test,this is a test,this is a test,this is a test,this is a test,this is a test...
-                </div>
-                <div class="question-item-bottom">
-                    <div class="left time">1h</div>
-                    <div class="right btns">
-                        <img src="../img/ic_like_grey.png"/>
-                        <img src="../img/ic_flag.png"/>
-                        <img src="../img/ic_back.png"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="question-item">
-            <div class="item-content">
-                <div class="question-item-header">
-                    <div class="left title">
-                        <h3>Title here</h3>
-                        <h4>tag1/tag2/tag3</h4>
-                    </div>
-                    <div class="right headshot">
-                    </div>
-                </div>
-                <div class="question-item-content">
-                    this is a test,this is a test,this is a test,this is a test,this is a test,this is a test...
-                </div>
-                <div class="question-item-bottom">
-                    <div class="left time">1h</div>
-                    <div class="right btns">
-                        <img src="../img/ic_like_grey.png"/>
-                        <img src="../img/ic_flag.png"/>
-                        <img src="../img/ic_back.png"/>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--<div class="question-item">-->
+            <!--<div class="item-content">-->
+                <!--<div class="question-item-header">-->
+                    <!--<div class="left title">-->
+                        <!--<h3>Title here</h3>-->
+                        <!--<h4>tag1/tag2/tag3</h4>-->
+                    <!--</div>-->
+                    <!--<div class="right headshot">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="question-item-content">-->
+                    <!--this is a test,this is a test,this is a test,this is a test,this is a test,this is a test...-->
+                <!--</div>-->
+                <!--<div class="question-item-bottom">-->
+                    <!--<div class="left time">1h</div>-->
+                    <!--<div class="right btns">-->
+                        <!--<img src="../img/ic_like_grey.png"/>-->
+                        <!--<img src="../img/ic_flag.png"/>-->
+                        <!--<img src="../img/ic_back.png"/>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
     </div>
-    <img src="../img/fix1.png" class="fixed" width="100%"/><!---->
+  <!--<img src="../img/fix1.png" class="fixed" width="100%"/>-->
     <div class="dialog">
         <div class="dialog-header">
             <div class="dialog-header-headshot">
@@ -117,6 +97,65 @@
     </div>
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/index.js"></script>
+    <script>
+        var now = new Date().getTime();
+        $(document).ready(function () {
+            loadData();
+            $('.search-return').click(function(){
+                $('.header-search').hide();
+            })
+        })
+        function loadData(){
+            $.post(window.ajaxAddress+'/Question/queryAll',{page:1},function(data){
+                var result = data.content;
+                var html = '';
+                for(var i = 0 ; i < result.length ; i++){
+                    html += questionTemp(result[i]);
+                }
+                $('.container').append(html);
+            })
+        }
+        function questionTemp(item){
+            var createTime = hackDate(item.createTime).getTime();
+            var hour = Math.floor((now-createTime)/1000/60/60);
+            if(hour){
+                if(hour>24){
+                    var hourStr = parseInt(hour/24)+'day '+hour%24+'h';
+                }else{
+                    var hourStr = hour+'h';
+                }
+            }else{
+                var hourStr = Math.floor((now-createTime)/1000/60)+'min';
+            }
+            if(!item.tag){
+                var tag = '没有标签';
+            }else{
+                var tag = item.tag.join('/');
+            }
+            return '<div class="question-item">\
+                    <div class="item-content">\
+                    <div class="question-item-header">\
+                    <div class="left title">\
+                    <h3>'+item.title+'</h3>\
+            <h4>'+tag+'</h4>\
+            </div>\
+            <div class="right headshot">\
+                    <img src="'+(item.logoPic||("../img/headshot-example.png"))+'" width="100%" height="100%"/></div>\
+            </div>\
+            <div class="question-item-content">\
+                    '+item.content+'\
+            </div>\
+            <div class="question-item-bottom">\
+                    <div class="left time">'+hourStr+'</div>\
+            <div class="right btns">\
+                    <img src="../img/ic_like_grey.png"/>\
+                    <img src="../img/ic_flag.png"/>\
+                    <img src="../img/ic_back.png"/>\
+                    </div>\
+            </div>\
+            </div>\
+            </div>'
+        }
+    </script>
   </body>
 </html>

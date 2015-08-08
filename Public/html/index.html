@@ -14,15 +14,18 @@
   <body>
     <div class="header">
         <div class="header-search">
-            <img src="../img/ic_arrow_back_24px.png"/><input placeholder="Hint Text"/>
+            <img src="../img/ic_arrow_back_24px.png" class="search-return"/><input placeholder="Hint Text"/>
         </div>
         <div class="header-btns">
             <img src="../img/ic_reorder_24px.png" class="left more"/>
-            <img src="../img/ic_add_24px.png" class="right"/>
-            <img src="../img/search.png" class="right search"/>
+            <a href="new_question.html"><img src="../img/ic_add_24px.png" class="right"/></a>
+            <img src="../img/search.png" class="right search "/>
         </div>
         <div class="header-root">
-            <div>大厅 > 私戳</div>
+            <ul>
+                <a href="page3.html"><li>大厅</li></a>
+                <li class="on">私戳</li>
+            </ul>
         </div>
     </div>
     <div class="sidebar">
@@ -37,10 +40,10 @@
                 </div>
             </div>
             <ul class="clear">
-                <li><img src="../img/ic_home_24px.png"/><span>主页</span></li>
+                <a href="personal.html"><li><img src="../img/ic_home_24px.png"/><span>主页</span></li></a>
                 <li><img src="../img/ic_reorder_24px.png"/><span>消息列表</span></li>
                 <li><img src="../img/ic_chat_24px.png"/><span>聊天室</span></li>
-                <li><img src="../img/ic_favorite_24px.png"/><span>收藏夹</span></li>
+                <a href="collect.html"><li><img src="../img/ic_favorite_24px.png"/><span>收藏夹</span></li></a>
                 <li><img src="../img/ic_settings_24px.png"/><span>设置</span></li>
             </ul>
         </div>
@@ -63,26 +66,26 @@
             <!--</div>-->
         <!--</div>-->
     </div>
-    <img src="../img/fix1.png" class="fixed" width="100%"/>
+    <a href="page2.html"><img src="../img/fix1.png" class="fixed" width="100%"/></a>
     <div class="dialog">
         <div class="dialog-header">
             <div class="dialog-header-headshot">
-
+                <img src="../img/headshot-example.png" width="100%" height="100%"/>
             </div>
             <div class="dialog-header-content">
-                Person 2
-                <p>tag1 / tag2 / tag3</p>
+                <span data-template="name"></span>
+                <p data-template="tag"></p>
             </div>
         </div>
         <div class="dialog-content">
             <div>个人简介</div>
-            <p>
+            <p data-template="content">
                 asdkasdkasd jasgdjagsd kqwehk asdkh qwe a asdhkqwhe asdhkqwe a jkd hqwehj,azdkh ad hwq qweh kasd
             </p>
         </div>
         <div class="dialog-bottom">
-            <div class="dialog-bottom-btn right">发起聊天</div>
-            <div class="dialog-bottom-btn right">返回</div>
+           <a href="chat.html"><div class="dialog-bottom-btn right">发起聊天</div></a>
+           <div class="dialog-bottom-btn right">返回</div>
         </div>
     </div>
     <script src="../js/jquery-1.11.0.js"></script>
