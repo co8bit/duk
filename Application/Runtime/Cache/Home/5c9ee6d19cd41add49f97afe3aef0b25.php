@@ -7,7 +7,7 @@
     <title>好身体</title>
 
     <!-- Bootstrap -->
-    <link href="/hst/Public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/duk/Public/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,6 +41,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/hst/Public/js/bootstrap.min.js"></script>
+<script src="/duk/Public/js/bootstrap.min.js"></script>
 </body>
 </html>

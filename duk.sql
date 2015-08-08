@@ -17,16 +17,17 @@ create table user(
 	content text not NULL,/*个人简介*/
 	logoPic varchar(150) not null,/*头像*/
 	concernProblem text not NULL,/*关注的问题*/
-	concernUser text not NULL,/*关注的用户*/
+	
 
 	tag text not null,
 	zanTable text not null,
+	state int not null,/*0是正常*/
 
 	rongyun_token text not null,/*融云的Token*/
 
 	primary key(uid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
-INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `concernProblem`, `concernUser`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '', '', '', '');
+INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `concernProblem`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '', '',  '');
 
 
 
@@ -35,6 +36,7 @@ create table question(
 	uid bigint NOT NULL,
 	title TEXT NOT NULL,
 	tag TEXT NOT NULL,
+	pic text not null,
 	
 	createTime datetime NOT NULL,
 	content text not null,
@@ -44,5 +46,18 @@ create table question(
 
 	zan int not null,
 
-	primary key(sid)
+	primary key(qid)
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
+INSERT INTO `duk`.`question` (`qid`, `uid`, `title`, `tag`, `createTime`, `content`, `state`, `comment`, `zan`,`pic`) VALUES (NULL, '1', '这是标题', '这是标签', '2015-08-07 04:00:00', '这是内容', '0', '', '','');
+
+
+create table follow(
+	id bigint NOT NULL AUTO_INCREMENT,
+	from_uid bigint DEFAULT NULL,/*from_uid的人关注to_uid的人*/
+	to_uid bigint DEFAULT NULL,
+
+	createTime datetime NOT NULL,
+	state tinyint(1) DEFAULT '0',
+
+	primary key(id)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;

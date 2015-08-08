@@ -25,6 +25,8 @@ class UserController extends Controller
     {
         //parent::_initialize();
         header("Content-Type:text/html; charset=utf-8");
+        $this->uid      =       session("uid");
+        // empty($this->uid) && exit("error");
     }
     
 
@@ -65,8 +67,6 @@ class UserController extends Controller
                 exit("false");
             }
         }
-        else
-            $this->display();
     }
     
 
@@ -242,6 +242,119 @@ class UserController extends Controller
             exit("true");
         else
             exit("false");
+    }
+
+
+    /**
+     * 关注toUid用户
+     * @param int toUid 要关注的用户的uid
+     * @return "error_over" 关注关系已存在
+     * @return "error_sql" sql语句执行错误
+     * @return "true"  成功
+     */
+    public function follow()
+    {
+        $dbFollow   =   D("Follow");
+
+        $toUid  =   I('param.toUid');
+
+        $re     =   $dbFollow->where(array("from_uid"=>$this->uid,"to_uid"=>$toUid))->select();
+        if ($re !== null)
+            exit("error_over");
+        if ($re === false)
+            exit("error_sql");
+
+        $data   =   null;
+        $data   =   array("from_uid"=>$this->uid,"to_uid"=>$toUid,"createTime"=>date("Y-m-d H:i:s"));
+        $re     =   null;
+        $re     =   $dbFollow->add($data);
+        if( ($re == null) || ($re == false) )
+            exit("error_sql");
+        else
+            exit("true");
+    }
+
+
+    /**
+     * 取消关注toUid用户
+     * @param int toUid 要取消关注的用户的uid
+     * @return "error_no" 关注关系不存在
+     * @return "error_sql" sql语句执行错误
+     * @return "true"  成功
+     */
+    public function unfollow()
+    {
+        $dbFollow   =   D("Follow");
+
+        $toUid  =   I('param.toUid');
+
+        $re     =   $dbFollow->where(array("from_uid"=>$this->uid,"to_uid"=>$toUid))->select();
+        if ($re === null)
+            exit("error_no");
+        if ($re === false)
+            exit("error_sql");
+
+        $data   =   null;
+        $data   =   array("from_uid"=>$this->uid,"to_uid"=>$toUid);
+        $re     =   null;
+        $re     =   $dbFollow->where($data)->delete();
+        if( ($re == null) || ($re == false) )
+            exit("error_sql");
+        else
+            exit("true");
+    }
+
+    /**
+     * 是否关注了toUid用户
+     * @param int toUid 要查询的用户uid
+     * @return "true,false" 是，否
+     * @return "error_sql" sql语句执行错误
+     */
+    public function isFollow()
+    {
+        $dbFollow   =   D("Follow");
+
+        $toUid  =   I('param.toUid');
+
+        $re     =   $dbFollow->where(array("from_uid"=>$this->uid,"to_uid"=>$toUid))->select();
+        if ($re === null)
+            exit("false");
+        if ($re === false)
+                exit("error_sql");
+        exit("true");
+    }
+
+    /**
+     * 查询toUid的用户的关注列表。
+     * @param int toUid 要查询的用户的uid
+     * @return json 关注的uid的列表，如["2","3","4","5"]，代表关注了uid为2、3、4、5的用户。
+     * @return "null" 该用户没有关注任何人
+     * @return "error_sql" 查询出错
+     */
+    public function userFollowList()
+    {
+        $dbFollow   =   D("Follow");
+
+        $toUid  =   I('param.toUid');
+
+        $data     =   $dbFollow->where(array("from_uid"=>$toUid))->select();
+        if ($data === false)
+            exit("error_sql");
+
+        $re     =   null;
+        $i   =   0;
+        foreach ($data as $key1=>$value1)
+        {
+            foreach ($data[$key1] as $key2=>$value2)
+            {
+                if ( ($key2 == "to_uid") )
+                {
+                    $re[$i++] = $value2;
+                }
+            }
+        }
+
+        $this->ajaxReturn($re);
     }
 
 }
