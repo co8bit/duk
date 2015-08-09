@@ -79,13 +79,18 @@
         $(document).ready(function () {
             loadData();
         })
-        function loadData(){
+        function loadData(event){
             $.post(window.ajaxAddress+'/Question/queryOne',{qid:qid},function(data){
                 drawDom(data)
-            })
+            });
+
         }
         function drawDom(item){
-            item.tag = item.tag.join('/');
+            if(!item.tag){
+                var tag = '没有标签';
+            }else{
+                var tag = item.tag.join('/');
+            }
             for(var i in item){
                 $('[data-template="'+i+'"]').html(item[i]);
             }

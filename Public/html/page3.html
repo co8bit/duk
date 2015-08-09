@@ -99,11 +99,23 @@
     <script src="../js/common.js"></script>
     <script>
         var now = new Date().getTime();
+
         $(document).ready(function () {
-            loadData();
+            $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
+                $.post(window.ajaxAddress+'/User/getUserInfo',{uid:userInfo}, function (data) {
+                    try{
+                        likeArray = JSON.parse(data.zanTable);
+                    }catch(e){
+                        likeArray = new Array();
+                    }
+                    loadData();
+                })
+            })
+
             $('.search-return').click(function(){
                 $('.header-search').hide();
-            })
+            });
+
         })
         function loadData(){
             $.post(window.ajaxAddress+'/Question/queryAll',{page:1},function(data){
@@ -132,7 +144,12 @@
             }else{
                 var tag = item.tag.join('/');
             }
-            return '<div class="question-item">\
+            if(likeArray.indexOf(parseInt(item.qid))>-1){
+                var likePic = '../img/ic_like_grey_on.png';
+            }else{
+                var likePic = '../img/ic_like_grey.png';
+            }
+            return '<a href="question_detail.html?id='+item.qid+'"><div class="question-item">\
                     <div class="item-content">\
                     <div class="question-item-header">\
                     <div class="left title">\
@@ -140,21 +157,45 @@
             <h4>'+tag+'</h4>\
             </div>\
             <div class="right headshot">\
-                    <img src="'+(item.logoPic||("../img/headshot-example.png"))+'" width="100%" height="100%"/></div>\
+                <img src="'+(item.logoPic||("../img/headshot-example.png"))+'" width="100%" height="100%"/></div>\
             </div>\
             <div class="question-item-content">\
-                    '+item.content+'\
+                '+item.content+'\
             </div>\
             <div class="question-item-bottom">\
-                    <div class="left time">'+hourStr+'</div>\
+                <div class="left time">'+hourStr+'</div>\
             <div class="right btns">\
-                    <img src="../img/ic_like_grey.png"/>\
-                    <img src="../img/ic_flag.png"/>\
-                    <img src="../img/ic_back.png"/>\
-                    </div>\
+                <img src="'+likePic+'" onclick="addZan(this)" qid="'+item.qid+'"/>\
+                <img src="../img/ic_flag.png" onclick="addLike(this)" uid="'+item.uid+'"/>\
+                <img src="../img/ic_back.png"/>\
+                </div>\
             </div>\
             </div>\
-            </div>'
+            </div></a>'
+        }
+        function addZan(dom) {
+            var qid = dom.getAttribute('qid');
+            var that = dom;
+//            $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
+//                $.post(window.ajaxAddress+'/Question/zan',{qid:qid,uid:userInfo}, function (data) {
+//                    if(data=='true'){
+//                        dom.setAttribute('src','../img/ic_like_grey_on.png');
+//                    }
+//                })
+//            })
+            alert(123);
+            event.preventDefault();
+        }
+        function addLike(dom) {
+            var uid = dom.getAttribute('uid');
+            var that = dom;
+            $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
+                $.post(window.ajaxAddress+'/User/follow',{from_uid:userInfo,toUid:uid}, function (data) {
+                    if(data=='true'){
+                        dom.setAttribute('src','../img/ic_flag_on.png');
+                    }
+                })
+            })
         }
     </script>
   </body>

@@ -19,42 +19,57 @@
           </div>
       </div>
       <div class="container" id="register">
-          <p class="headshot"><img src="../img/headshot-example.png"/><span class="maincolor">修改头像+</span></p>
-          <div class="inputfield">
-              <input value="邮箱/手机号码"/>
-          </div>
-          <div class="inputfield">
-              <input value="验证码"/>
-          </div>
-          <div class="btn login verify right">
-              发送验证码
-          </div>
-          <div class="inputfield">
-              <input value="用户名"/>
-          </div>
-          <div class="inputfield">
-              <input value="密码" type="password"/>
-          </div>
-          <div class="inputfield">
-              <input value="确认密码" type="password"/>
-          </div>
-          <div class="inputfield">
-              <input value="姓名（必填）"/>
-          </div>
-          <div class="inputfield">
-              <input value="Tags（必填）"/>
-          </div>
-          <div class="inputfield">
-              <input value="个人描述（必填）"/>
-          </div>
-          <div class="center" style="margin-top: -30rem"><img src="../img/ic_login_bg.png" width="100%"/></div>
-          <div class="btn login">
-              注册
-          </div>
+          <form method="post" enctype="multipart/form-data" action="">
+              <p class="headshot"><img src="../img/headshot-example.png"/><span class="maincolor">修改头像</span></p>
+              <input type="file" style="display: none" id="file"/>
+              <div class="inputfield">
+                  <input placeholder="邮箱/手机号码"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="验证码"/>
+              </div>
+              <div class="btn login verify right">
+                  发送验证码
+              </div>
+              <div class="inputfield">
+                  <input placeholder="用户名"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="密码" type="password"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="确认密码" type="password"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="姓名（必填）"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="Tags（必填）"/>
+              </div>
+              <div class="inputfield">
+                  <input placeholder="个人描述（必填）"/>
+              </div>
+              <div class="center" style="margin-top: -30rem"><img src="../img/ic_login_bg.png" width="100%"/></div>
+              <div class="btn login">
+                  注册
+              </div>
+          </form>
       </div>
-
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/index.js"></script>
+    <script>
+        $('.headshot').click(function () {
+            $('#file').click()
+        })
+        $('#file').change(function () {
+            console.log(this.files);
+            var reader = new FileReader();
+            reader.onload = function () {
+                $('.headshot img').attr('src',reader.result);
+            }
+            reader.readAsDataURL(this.files[0]);
+
+        })
+    </script>
   </body>
 </html>

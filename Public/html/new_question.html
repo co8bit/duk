@@ -26,7 +26,9 @@
         <input class="input" placeholder="Input text" type="text" name="content"/>
         <div class="subtitle">Tags</div>
         <input class="input" placeholder="Input text" type="text" name="tags"/>
-        <div class="content"><img src="../img/ic_attach_file_24px.png"/><img src="../img/ic_insert_photo_24px.png"/></div>
+        <div class="content"><img src="../img/ic_insert_photo_24px.png" class="headshot"/></div>
+        <input type="file" style="display: none" id="file"/>
+        <!--<img src="../img/ic_insert_photo_24px.png"/>-->
     </div>
     <script src="../js/jquery-1.11.0.js"></script>
     <script src="../js/common.js"></script>
@@ -37,6 +39,18 @@
             })
             $('input[type="text"]').blur(function () {
                 $(this).removeClass('focus');
+            });
+            $('.headshot').click(function () {
+                $('#file').click()
+            })
+            $('#file').change(function () {
+                console.log(this.files);
+                var reader = new FileReader();
+                reader.onload = function () {
+                    $('.container').append('<img src="'+reader.result+'"/>');
+                }
+                reader.readAsDataURL(this.files[0]);
+
             })
         })
         $('.confirm').click(function () {
