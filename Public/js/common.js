@@ -11,9 +11,17 @@ $('.dialog-bottom-btn').click(function(){
 })
 $('.more.left').click(function(){
     $('.sidebar').show();
+    $('body').append('<div class="black" onclick="hideSideBar()" style="position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.3);width: 100%;height: '+$(document).height()+'px"></div>')
 })
+function hideSideBar(){
+    $('.sidebar').hide();
+    $('.black').remove();
+}
 $('.search').click(function(){
     $('.header-search').show();
+})
+$('body').click(function (e) {
+    console.log(e.target);
 })
 function hackDate(str){
     var reg = new RegExp('-',"g");
@@ -69,4 +77,23 @@ $(document).ready(function () {
     $('.return.left').click(function () {
         history.back(-1);
     })
+    $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
+        $.post(window.ajaxAddress+'/User/getUserInfo',{uid:userInfo}, function (userInfo) {
+            var picStr = '';
+            if(userInfo.logoPic){
+                picStr = userInfo.logoPic;
+            }else{
+                picStr = '../img/headshot-example.png';
+            }
+            if(userInfo.tag){
+                var tag = item.tag.join('/');
+            }else{
+                var tag = '没有标签';
+            }
+            $('.sidebar-title-headshot img').attr('src',picStr);
+            $('.sidebar-content-name').html(userInfo.name);
+            $('.sidebar-content-tag').html(tag);
+        })
+    })
+
 })

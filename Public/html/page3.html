@@ -28,26 +28,26 @@
           </ul>
       </div>
   </div>
-    <div class="sidebar">
-        <div class="sidebar-container">
-            <div class="sidebar-title">
-                <div class="sidebar-title-headshot left">
-                    <img src="../img/Duk副本.jpg" width="100%"/>
-                </div>
-                <div class="sidebar-content left">
-                    <div class="sidebar-content-name">Person 1</div>
-                    <div class="sidebar-content-tag">Tag1 / Tag2 / Tag3 / Tag4 / Tag5 / Tag6</div>
-                </div>
-            </div>
-            <ul class="clear">
-                <li><img src="../img/ic_home_24px.png"/><span>主页</span></li>
-                <li><img src="../img/ic_reorder_24px.png"/><span>消息列表</span></li>
-                <li><img src="../img/ic_chat_24px.png"/><span>聊天室</span></li>
-                <li><img src="../img/ic_favorite_24px.png"/><span>收藏夹</span></li>
-                <li><img src="../img/ic_settings_24px.png"/><span>设置</span></li>
-            </ul>
-        </div>
-    </div>
+  <div class="sidebar">
+      <div class="sidebar-container">
+          <div class="sidebar-title">
+              <div class="sidebar-title-headshot left">
+                  <a href="personal.html"><img src="../img/Duk副本.jpg" width="100%"/></a>
+              </div>
+              <div class="sidebar-content left">
+                  <div class="sidebar-content-name">Person 1</div>
+                  <div class="sidebar-content-tag">Tag1 / Tag2 / Tag3 / Tag4 / Tag5 / Tag6</div>
+              </div>
+          </div>
+          <ul class="clear">
+              <a href="index.html"><li><img src="../img/ic_home_24px.png"/><span>主页</span></li></a>
+              <li><img src="../img/ic_reorder_24px.png"/><span>消息列表</span></li>
+              <li><img src="../img/ic_chat_24px.png"/><span>聊天室</span></li>
+              <a href="collect.html"><li><img src="../img/ic_favorite_24px.png"/><span>收藏夹</span></li></a>
+              <li><img src="../img/ic_settings_24px.png"/><span>设置</span></li>
+          </ul>
+      </div>
+  </div>
     <div class="container">
         <!--<div class="question-item">-->
             <!--<div class="item-content">-->
@@ -165,9 +165,8 @@
             <div class="question-item-bottom">\
                 <div class="left time">'+hourStr+'</div>\
             <div class="right btns">\
-                <img src="'+likePic+'" onclick="addZan(this)" qid="'+item.qid+'"/>\
-                <img src="../img/ic_flag.png" onclick="addLike(this)" uid="'+item.uid+'"/>\
-                <img src="../img/ic_back.png"/>\
+                <img src="../img/ic_flag.png" onclick="addLike(this)" uid="'+item.uid+'" qid="'+item.qid+'"/>\
+                <a href="reply.html?id='+item.qid+'"><img src="../img/ic_back.png"/></a>\
                 </div>\
             </div>\
             </div>\
@@ -183,19 +182,19 @@
 //                    }
 //                })
 //            })
-            alert(123);
             event.preventDefault();
         }
         function addLike(dom) {
-            var uid = dom.getAttribute('uid');
+            var qid = dom.getAttribute('qid');
             var that = dom;
             $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
-                $.post(window.ajaxAddress+'/User/follow',{from_uid:userInfo,toUid:uid}, function (data) {
+                $.post(window.ajaxAddress+'/Question/collectq',{qid:qid}, function (data) {
                     if(data=='true'){
                         dom.setAttribute('src','../img/ic_flag_on.png');
                     }
                 })
             })
+            event.preventDefault();
         }
     </script>
   </body>

@@ -19,35 +19,35 @@
           </div>
       </div>
       <div class="container" id="register">
-          <form method="post" enctype="multipart/form-data" action="">
+          <form method="post" enctype="multipart/form-data" action="/duk/index.php/User/sign.html">
               <p class="headshot"><img src="../img/headshot-example.png"/><span class="maincolor">修改头像</span></p>
               <input type="file" style="display: none" id="file"/>
               <div class="inputfield">
-                  <input placeholder="邮箱"/>
+                  <input placeholder="邮箱" name="email"/>
               </div>
-              
-              <div class="inputfield">
-                  <input placeholder="用户名"/>
-              </div>
-              <div class="inputfield">
-                  <input placeholder="密码" type="password"/>
-              </div>
-              <div class="inputfield">
-                  <input placeholder="确认密码" type="password"/>
-              </div>
-              <div class="inputfield">
-                  <input placeholder="姓名（必填）"/>
-              </div>
-              <div class="inputfield">
-                  <input placeholder="Tags（必填）"/>
-              </div>
-              <div class="inputfield">
-                  <input placeholder="个人描述（必填）"/>
-              </div>
-              <div class="center" style="margin-top: -30rem"><img src="../img/ic_login_bg.png" width="100%"/></div>
-              <div class="btn login">
-                  注册
-              </div>
+                <div class="inputfield">
+                    <input placeholder="用户名" name="username"/>
+                </div>
+                <div class="inputfield">
+                    <input placeholder="密码" type="password" name="password"/>
+                </div>
+                <div class="inputfield">
+                    <input placeholder="确认密码" type="password"/>
+                </div>
+                <input type="submit" class="btn login" value="注册"/>
+
+
+              <!--<div class="inputfield">-->
+                  <!--<input placeholder="姓名（必填）"/>-->
+              <!--</div>-->
+              <!--<div class="inputfield">-->
+                  <!--<input placeholder="Tags（必填）"/>-->
+              <!--</div>-->
+              <!--<div class="inputfield">-->
+                  <!--<input placeholder="个人描述（必填）"/>-->
+              <!--</div>-->
+              <!--<div class="center" style="margin-top: -30rem"><img src="../img/ic_login_bg.png" width="100%"/></div>-->
+
           </form>
       </div>
     <script src="../js/jquery-1.11.0.js"></script>

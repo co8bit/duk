@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/new_question.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="shortheader">
+        <div class="content">
+            <img src="../img/ic_arrow_back_24px.png" class="return left"/>
+            <span class="left">回复</span>
+            <img src="../img/ic_tick.png" class="confirm right"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subtitle">Title</div>
+        <input class="input" placeholder="Input text" type="text" name="title"/>
+        <div class="subtitle">Description</div>
+        <input class="input" placeholder="Input text" type="text" name="content"/>
+        <!--<img src="../img/ic_insert_photo_24px.png"/>-->
+    </div>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+        var qid = (window.location.href.split('='))[1];
+        $(document).ready(function () {
+            $('input[type="text"]').focus(function () {
+                $(this).addClass('focus');
+            })
+            $('input[type="text"]').blur(function () {
+                $(this).removeClass('focus');
+            });
+            $('.headshot').click(function () {
+                $('#file').click()
+            })
+            $('#file').change(function () {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    $('.container').append('<img src="'+reader.result+'"/>');
+                }
+                reader.readAsDataURL(this.files[0]);
+
+            })
+        })
+        $('.confirm').click(function () {
+            var post = {};
+
+            post.title = $('input[name="title"]').val();
+            post.content = $('input[name="content"]').val();
+            post.qid = qid;
+
+            post.createTime = getFormatTime(new Date());
+            $.post(window.ajaxAddress+'/Question/reply',post,function(data){
+                window.location.href = "index.html";
+            })
+        })
+    </script>
+  </body>
+</html>

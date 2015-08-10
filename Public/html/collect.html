@@ -21,6 +21,12 @@
         <!--<img src="../img/ic_add_24px.png" class="right"/>-->
         <!--<img src="../img/search.png" class="right"/>-->
     </div>
+    <div class="header-root">
+        <ul>
+            <li  class="on">好友</li>
+            <a href="collect_question.html"><li>问题</li></a>
+        </ul>
+    </div>
 </div>
 <div class="sidebar">
     <div class="sidebar-container">
@@ -90,6 +96,9 @@
     };
     $.post(window.ajaxAddress+'/User/getUid',{}, function (userInfo) {
         $.post(window.ajaxAddress+'/User/userFollowList',{toUid:userInfo},function(data){
+            if(!data){
+                return false;
+            }
             for(var i = 0 ; i < data.length ; i++){
                 $.post(window.ajaxAddress+'/User/getUserInfo',{uid:data[i]},function(userInfo){
                     GLOBAL.dataArray.push(userInfo);
@@ -129,6 +138,7 @@
     }
     function showDialog(uid){
         var item;
+
         for(var i = 0 ; i < GLOBAL.dataArray.length ; i++){
             if(GLOBAL.dataArray[i].uid = uid){
                 item = GLOBAL.dataArray[i];

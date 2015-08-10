@@ -26,8 +26,7 @@ function login(){
     }
 }
 function register(){
-    var post = {};
-    post.username = $()
+    window.location.href="register.html";
 }
 $(document).ready(function(){
 
