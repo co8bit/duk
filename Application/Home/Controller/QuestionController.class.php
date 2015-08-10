@@ -434,6 +434,27 @@ class QuestionController extends Controller
     }
 
     /**
+     * 返回一个帖子的所有回复
+     * @param int qid 要查询的帖子的qid 
+     * @return json 格式如下：
+     * [{"qrid":"1","uid":"1","qid":"1","createTime":"2015-08-10 17:26:24","content":"asdasdas","zan":"0"},{"qrid":"2","uid":"1","qid":"1","createTime":"2015-08-10 17:27:57","content":"dasd435345","zan":"0"}]
+     */
+    public function queryReply()
+    {
+        $dbQreply     =   D("Qreply");
+        $data   =   null;
+
+        $qid    =   I('param.qid',null);
+
+        $data     =   $dbQreply->where(array("qid"=>$qid))->order("qrid")->select();
+
+        
+        $this->ajaxReturn($data);
+
+    }
+
+
+    /**
      * 收藏帖子id为qid的帖子
      * @param int qid
      * @return "true,false"
