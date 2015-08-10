@@ -28,7 +28,7 @@ create table user(
 
 	primary key(uid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
-INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `concernProblem`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '', '',  '');
+INSERT INTO `duk`.`user` (`uid`, `name`, `pwd`, `realName`, `content`, `logoPic`, `tag`) VALUES (NULL, 'wbx', 'wbx', '王博鑫', '我很懒，没有签名', '',  '');
 
 
 
@@ -63,7 +63,7 @@ create table qreply(
 
 	zan int not null,
 
-	primary key(qird)
+	primary key(qrid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 /*收藏的帖子*/

@@ -327,7 +327,7 @@ class UserController extends Controller
     }
 
     /**
-     * 查询toUid的用户的关注列表。
+     * 查询toUid的用户的关注用户列表。
      * @param int toUid 要查询的用户的uid
      * @return json 关注的uid的列表，如["2","3","4","5"]，代表关注了uid为2、3、4、5的用户。
      * @return "null" 该用户没有关注任何人

@@ -437,6 +437,8 @@ class QuestionController extends Controller
      * 收藏帖子id为qid的帖子
      * @param int qid
      * @return "true,false"
+     * @return "error_over" 关注关系已存在
+     * @return "error_sql" sql语句执行错误
      */
     public function collectq()
     {
@@ -447,6 +449,13 @@ class QuestionController extends Controller
         $dbCollectq->createTime = date("Y-m-d H:i:s");
         $dbCollectq->uid =  $this->uid;
 
+        $re     =   $dbCollectq->where(array("uid"=>$this->uid,"qid"=>$dbCollectq->qid))->select();
+        if ($re !== null)
+            exit("error_over");
+        if ($re === false)
+            exit("error_sql");
+
+
         $tmp    =   $dbCollectq->add();
         if(empty($tmp))//添加失败
         {
@@ -456,6 +465,40 @@ class QuestionController extends Controller
         {
             echo "true";
         }
+    }
+
+
+    /**
+     * 查询toUid的用户的关注问题列表。
+     * @param int toUid 要查询的用户的uid
+     * @return json 关注的qid的列表，如["2","3"]，代表关注了qid为2、3的帖子。
+     * @return "null" 该用户没有关注任何帖子
+     * @return "error_sql" 查询出错
+     */
+    public function questionFollowList()
+    {
+        $dbCollectq   =   D("Collectq");
+
+        $toUid  =   I('param.toUid');
+
+        $data     =   $dbCollectq->where(array("uid"=>$toUid))->select();
+        if ($data === false)
+            exit("error_sql");
+
+        $re     =   null;
+        $i   =   0;
+        foreach ($data as $key1=>$value1)
+        {
+            foreach ($data[$key1] as $key2=>$value2)
+            {
+                if ( ($key2 == "qid") )
+                {
+                    $re[$i++] = $value2;
+                }
+            }
+        }
+
+        $this->ajaxReturn($re);
     }
 
 }

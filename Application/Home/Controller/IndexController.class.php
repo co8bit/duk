@@ -75,5 +75,18 @@ class IndexController extends Controller
                 <input type="submit" value="提交" >
             </form><br>
         ';
+
+        echo '<br>Question/collectq:
+            <form action="'.U("Question/collectq").'" enctype="multipart/form-data" method="post" >
+                要收藏的qid:<input type="text" name="qid" value=""/>
+                <input type="submit" value="提交" >
+            </form><br>
+        ';
+        echo '<br>Question/questionFollowList:
+            <form action="'.U("Question/questionFollowList").'" enctype="multipart/form-data" method="post" >
+                要查询的人的uid:<input type="text" name="toUid" value=""/>
+                <input type="submit" value="提交" >
+            </form><br>
+        ';
     }
 }
