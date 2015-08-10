@@ -404,4 +404,58 @@ class QuestionController extends Controller
         else
             exit("true");
     }
+
+
+    /**
+     * 回复帖子id为qid的帖子
+     * @param int qid
+     * @param string content 回复的内容
+     * @return "true,false"
+     */
+    public function reply()
+    {
+        $dbQreply     =   D("Qreply");
+        $data   =   null;
+
+        $dbQreply->field("content,qid")->create(I('param.'));
+        $dbQreply->createTime = date("Y-m-d H:i:s");
+        $dbQreply->uid =  $this->uid;
+        $dbQreply->zan =  0;
+
+        $tmp    =   $dbQreply->add();
+        if(empty($tmp))//添加失败
+        {
+            echo "false";
+        }
+        else
+        {
+            echo "true";
+        }
+    }
+
+    /**
+     * 收藏帖子id为qid的帖子
+     * @param int qid
+     * @return "true,false"
+     */
+    public function collectq()
+    {
+        $dbCollectq     =   D("Collectq");
+        $data   =   null;
+
+        $dbCollectq->field("qid")->create(I('param.'));
+        $dbCollectq->createTime = date("Y-m-d H:i:s");
+        $dbCollectq->uid =  $this->uid;
+
+        $tmp    =   $dbCollectq->add();
+        if(empty($tmp))//添加失败
+        {
+            echo "false";
+        }
+        else
+        {
+            echo "true";
+        }
+    }
+
 }

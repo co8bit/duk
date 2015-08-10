@@ -14,9 +14,10 @@ create table user(
 
 	/*个人身份信息*/
 	realName varchar(100) not null,
+	phone varchar(13) not null,
+	mail text not null,
 	content text not NULL,/*个人简介*/
 	logoPic varchar(150) not null,/*头像*/
-	concernProblem text not NULL,/*关注的问题*/
 	
 
 	tag text not null,
@@ -49,6 +50,32 @@ create table question(
 	primary key(qid)
 ) CHARACTER SET utf8 COLLATE utf8_general_ci;
 INSERT INTO `duk`.`question` (`qid`, `uid`, `title`, `tag`, `createTime`, `content`, `state`, `comment`, `zan`,`pic`) VALUES (NULL, '1', '这是标题', '这是标签', '2015-08-07 04:00:00', '这是内容', '0', '', '','');
+
+
+
+create table qreply(
+	qrid bigint NOT NULL AUTO_INCREMENT,
+	uid bigint NOT NULL,
+	qid bigint not null,/*回复哪个帖子*/
+	
+	createTime datetime NOT NULL,
+	content text not null,
+
+	zan int not null,
+
+	primary key(qird)
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+/*收藏的帖子*/
+create table collectq(
+	cqid bigint NOT NULL AUTO_INCREMENT,
+	uid bigint NOT NULL,/*谁收藏的*/
+	qid bigint not null,/*收藏哪个帖子*/
+	
+	createTime datetime NOT NULL,
+	
+	primary key(cqid)
+) CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 
 create table follow(

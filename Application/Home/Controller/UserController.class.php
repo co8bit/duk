@@ -110,6 +110,8 @@ class UserController extends Controller
             $dbUser = D("User");
             $data["name"]      =       I('param.username',"");
             $data["pwd"]       =       I('param.password',"");
+            $data["mail"]      =       I('param.mail',"");
+            $data["tag"]       =       I('param.tag',"");
             empty($data["name"]) && exit("error");
             empty($data["pwd"]) && exit("error");
 
