@@ -105,35 +105,32 @@ class UserController extends Controller
      */
     public function sign()
     {
-        if (IS_POST)
-        {
+        
             $dbUser = D("User");
             $data["name"]      =       I('param.username',"");
+            $data["realName"]   =      I('param.realName',$data['name']);
             $data["pwd"]       =       I('param.password',"");
             $data["mail"]      =       I('param.mail',"");
-            $data["tag"]       =       I('param.tag',"");
-            empty($data["name"]) && exit("error");
-            empty($data["pwd"]) && exit("error");
+            $data["tag"]       =       '["'.I('param.tag',"").'"]';
+            empty($data["name"]) && $this->error("用户名为空，请重试");
+            empty($data["pwd"]) && $this->error("密码为空，请重试");
 
             //判断用户名是否重复
             $tmpResult  =   $dbUser->where(array("name"=>$data["name"]))->find();
             if ( !empty($tmpResult) )
-                exit("error");
+                $this->error("用户名重复，请重试");
 
             $userId = $dbUser->add($data);
             if(empty($userId))//添加失败
             {
-                exit("error");
+                $this->error("注册失败，请重试");
             }
             else
             {
                 $data["uid"]    =   $userId;
                 $this->setSession($data);
-                exit("true");
-            }  
-        }
-        else
-            $this->display();
+                $this->success("注册成功",'../../Public/html/');
+            } 
         
     }
 

@@ -163,7 +163,7 @@ class QuestionController extends Controller
 
         $dbQuestion->field("title,createTime,content")->create(I('param.'));
         $dbQuestion->uid =  $this->uid;
-        $dbQuestion->tag = I('param.tag',"null",false);
+        $dbQuestion->tag = '["'.I('param.tag',"").'"]';
         $dbQuestion->state = 0;
 
         //TODO:自动补全和验证
