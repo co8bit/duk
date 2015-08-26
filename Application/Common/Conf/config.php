@@ -13,7 +13,7 @@ return array(
 	'DB_PREFIX' => '', // 数据库表前缀
 	'DB_PARAMS' => array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),//数据库字段名不强制小写
 
-	//'URL_MODEL' => 0,//路由模式
+	'URL_MODEL' => 0,//路由模式
 	
 	'SESSION_AUTO_START'    => true,    // 是否自动开启Session
 	
