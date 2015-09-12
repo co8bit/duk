@@ -1,0 +1,12 @@
+[ 2015-08-30T16:57:17+08:00 ] 127.0.0.1 /duk/index.php/User/getUid
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+
+[ 2015-08-30T16:57:17+08:00 ] 127.0.0.1 /duk/index.php/User/getUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `user` WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0020s ]
+

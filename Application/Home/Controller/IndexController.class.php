@@ -96,11 +96,6 @@ class IndexController extends Controller
                 <input type="submit" value="提交" >
             </form><br>
         ';
-        echo '<br>Question/queryReply:
-            <form action="'.U("Question/queryReply").'" enctype="multipart/form-data" method="post" >
-                qid:<input type="text" name="qid" value=""/>
-                <input type="submit" value="提交" >
-            </form><br>
-        ';
+        
     }
 }

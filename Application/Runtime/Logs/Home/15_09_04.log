@@ -1,0 +1,40 @@
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/User/getUid
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/User/getUid
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/User/userFollowList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `follow` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `follow` WHERE `from_uid` = '1'  [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/duk/Application/Home/Controller/UserController.class.php 第 345 行.
+
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/Question/questionFollowList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `collectq` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `collectq` WHERE `uid` = ''  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/XAMPP/xamppfiles/htdocs/duk/Application/Home/Controller/QuestionController.class.php 第 511 行.
+
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/User/getUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `user` WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-09-04T15:01:47+08:00 ] 127.0.0.1 /duk/index.php/User/getUserInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0002s ]
+
